@@ -1,0 +1,8 @@
+*
+*/**
+!dist/*.json
+!CHANGELOG.md
+!LICENSE.txt
+!README.md
+!logo.png
+!package.json

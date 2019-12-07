@@ -1,0 +1,345 @@
+{
+	"name": "vscode-zh-hans-custom",
+	"version": "1.0.0",
+	"description": "Unofficial Simplified Chinese Language Pack for VS Code.",
+	"keywords": [
+		"chinese",
+		"i18n",
+		"language"
+	],
+	"license": "MIT",
+	"author": "Wang Weixuan <wangweixvan@gmail.com>",
+	"repository": "https://github.com/wangweixuan/vscode-zh-hans-custom",
+	"private": true,
+	"scripts": {
+    "lint": "prettier --write --config scripts/.prettierrc.json scripts/*.js",
+		"prepare": "node scripts/build.js"
+	},
+	"devDependencies": {
+		"prettier": "^1.19.1"
+	},
+	"displayName": "Simplified Chinese Language Pack (unofficial)",
+	"publisher": "wangweixuan",
+	"engines": {
+		"vscode": "^1.40.0"
+	},
+	"categories": [
+		"Language Packs"
+	],
+	"contributes": {
+		"localizations": [
+			{
+				"languageId": "zh-hans",
+				"languageName": "Simplified Chinese (unofficial)",
+				"localizedLanguageName": "简体中文（非官方）",
+				"translations": [
+					{
+						"id": "vscode",
+						"path": "./dist/main.json"
+					},
+					{
+						"id": "vscode.bat",
+						"path": "./dist/bat.json"
+					},
+					{
+						"id": "vscode.clojure",
+						"path": "./dist/clojure.json"
+					},
+					{
+						"id": "vscode.coffeescript",
+						"path": "./dist/coffeescript.json"
+					},
+					{
+						"id": "vscode.configuration-editing",
+						"path": "./dist/configuration-editing.json"
+					},
+					{
+						"id": "vscode.cpp",
+						"path": "./dist/cpp.json"
+					},
+					{
+						"id": "vscode.csharp",
+						"path": "./dist/csharp.json"
+					},
+					{
+						"id": "vscode.css-language-features",
+						"path": "./dist/css-language-features.json"
+					},
+					{
+						"id": "vscode.css",
+						"path": "./dist/css.json"
+					},
+					{
+						"id": "vscode.debug-auto-launch",
+						"path": "./dist/debug-auto-launch.json"
+					},
+					{
+						"id": "vscode.debug-server-ready",
+						"path": "./dist/debug-server-ready.json"
+					},
+					{
+						"id": "vscode.docker",
+						"path": "./dist/docker.json"
+					},
+					{
+						"id": "vscode.emmet",
+						"path": "./dist/emmet.json"
+					},
+					{
+						"id": "vscode.extension-editing",
+						"path": "./dist/extension-editing.json"
+					},
+					{
+						"id": "vscode.fsharp",
+						"path": "./dist/fsharp.json"
+					},
+					{
+						"id": "vscode.git-ui",
+						"path": "./dist/git-ui.json"
+					},
+					{
+						"id": "vscode.git",
+						"path": "./dist/git.json"
+					},
+					{
+						"id": "vscode.go",
+						"path": "./dist/go.json"
+					},
+					{
+						"id": "vscode.groovy",
+						"path": "./dist/groovy.json"
+					},
+					{
+						"id": "vscode.grunt",
+						"path": "./dist/grunt.json"
+					},
+					{
+						"id": "vscode.gulp",
+						"path": "./dist/gulp.json"
+					},
+					{
+						"id": "vscode.handlebars",
+						"path": "./dist/handlebars.json"
+					},
+					{
+						"id": "vscode.hlsl",
+						"path": "./dist/hlsl.json"
+					},
+					{
+						"id": "vscode.html-language-features",
+						"path": "./dist/html-language-features.json"
+					},
+					{
+						"id": "vscode.html",
+						"path": "./dist/html.json"
+					},
+					{
+						"id": "vscode.image-preview",
+						"path": "./dist/image-preview.json"
+					},
+					{
+						"id": "vscode.ini",
+						"path": "./dist/ini.json"
+					},
+					{
+						"id": "vscode.jake",
+						"path": "./dist/jake.json"
+					},
+					{
+						"id": "vscode.java",
+						"path": "./dist/java.json"
+					},
+					{
+						"id": "vscode.javascript",
+						"path": "./dist/javascript.json"
+					},
+					{
+						"id": "vscode.json-language-features",
+						"path": "./dist/json-language-features.json"
+					},
+					{
+						"id": "vscode.json",
+						"path": "./dist/json.json"
+					},
+					{
+						"id": "vscode.less",
+						"path": "./dist/less.json"
+					},
+					{
+						"id": "vscode.log",
+						"path": "./dist/log.json"
+					},
+					{
+						"id": "vscode.lua",
+						"path": "./dist/lua.json"
+					},
+					{
+						"id": "vscode.make",
+						"path": "./dist/make.json"
+					},
+					{
+						"id": "vscode.markdown-basics",
+						"path": "./dist/markdown-basics.json"
+					},
+					{
+						"id": "vscode.markdown-language-features",
+						"path": "./dist/markdown-language-features.json"
+					},
+					{
+						"id": "vscode.merge-conflict",
+						"path": "./dist/merge-conflict.json"
+					},
+					{
+						"id": "vscode.npm",
+						"path": "./dist/npm.json"
+					},
+					{
+						"id": "vscode.objective-c",
+						"path": "./dist/objective-c.json"
+					},
+					{
+						"id": "vscode.perl",
+						"path": "./dist/perl.json"
+					},
+					{
+						"id": "vscode.php-language-features",
+						"path": "./dist/php-language-features.json"
+					},
+					{
+						"id": "vscode.php",
+						"path": "./dist/php.json"
+					},
+					{
+						"id": "vscode.powershell",
+						"path": "./dist/powershell.json"
+					},
+					{
+						"id": "vscode.pug",
+						"path": "./dist/pug.json"
+					},
+					{
+						"id": "vscode.python",
+						"path": "./dist/python.json"
+					},
+					{
+						"id": "vscode.r",
+						"path": "./dist/r.json"
+					},
+					{
+						"id": "vscode.razor",
+						"path": "./dist/razor.json"
+					},
+					{
+						"id": "vscode.ruby",
+						"path": "./dist/ruby.json"
+					},
+					{
+						"id": "vscode.rust",
+						"path": "./dist/rust.json"
+					},
+					{
+						"id": "vscode.scss",
+						"path": "./dist/scss.json"
+					},
+					{
+						"id": "vscode.shaderlab",
+						"path": "./dist/shaderlab.json"
+					},
+					{
+						"id": "vscode.shellscript",
+						"path": "./dist/shellscript.json"
+					},
+					{
+						"id": "vscode.sql",
+						"path": "./dist/sql.json"
+					},
+					{
+						"id": "vscode.swift",
+						"path": "./dist/swift.json"
+					},
+					{
+						"id": "vscode.theme-abyss",
+						"path": "./dist/theme-abyss.json"
+					},
+					{
+						"id": "vscode.theme-defaults",
+						"path": "./dist/theme-defaults.json"
+					},
+					{
+						"id": "vscode.theme-kimbie-dark",
+						"path": "./dist/theme-kimbie-dark.json"
+					},
+					{
+						"id": "vscode.theme-monokai-dimmed",
+						"path": "./dist/theme-monokai-dimmed.json"
+					},
+					{
+						"id": "vscode.theme-monokai",
+						"path": "./dist/theme-monokai.json"
+					},
+					{
+						"id": "vscode.theme-quietlight",
+						"path": "./dist/theme-quietlight.json"
+					},
+					{
+						"id": "vscode.theme-red",
+						"path": "./dist/theme-red.json"
+					},
+					{
+						"id": "vscode.theme-seti",
+						"path": "./dist/theme-seti.json"
+					},
+					{
+						"id": "vscode.theme-solarized-dark",
+						"path": "./dist/theme-solarized-dark.json"
+					},
+					{
+						"id": "vscode.theme-solarized-light",
+						"path": "./dist/theme-solarized-light.json"
+					},
+					{
+						"id": "vscode.theme-tomorrow-night-blue",
+						"path": "./dist/theme-tomorrow-night-blue.json"
+					},
+					{
+						"id": "vscode.typescript-basics",
+						"path": "./dist/typescript-basics.json"
+					},
+					{
+						"id": "vscode.typescript-language-features",
+						"path": "./dist/typescript-language-features.json"
+					},
+					{
+						"id": "vscode.vb",
+						"path": "./dist/vb.json"
+					},
+					{
+						"id": "vscode.vscode-chrome-debug-core",
+						"path": "./dist/vscode-chrome-debug-core.json"
+					},
+					{
+						"id": "ms-vscode.node-debug",
+						"path": "./dist/vscode-node-debug.json"
+					},
+					{
+						"id": "ms-vscode.node-debug2",
+						"path": "./dist/vscode-node-debug2.json"
+					},
+					{
+						"id": "vscode.xml",
+						"path": "./dist/xml.json"
+					},
+					{
+						"id": "vscode.yaml",
+						"path": "./dist/yaml.json"
+					}
+				]
+			}
+		]
+	},
+	"icon": "logo.png",
+	"galleryBanner": {
+		"color": "#282C34",
+		"theme": "dark"
+	}
+}
