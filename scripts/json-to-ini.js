@@ -21,15 +21,7 @@ async function parseJson(file) {
 function transformJson(json) {
   const ini = []
 
-  if ('package' in json) {
-    for (const field of Object.keys(json.package).sort())
-      ini.push(`${field} = ${escapeValue(json.package[field])}`)
-    ini[ini.length - 1] += '\n'
-  }
-
   for (const block of Object.keys(json).sort()) {
-    if (block === 'package') continue
-
     ini.push(`[${block}]`)
 
     for (const field of Object.keys(json[block]).sort())

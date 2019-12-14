@@ -10,11 +10,9 @@ async function parseIni(file) {
   const content = await fs.readFile(file, 'utf8')
   const lines = content.split('\n').map(line => line.trim())
 
-  const result = {
-    package: {}
-  }
+  const result = {}
 
-  let section = result.package
+  let section = undefined
 
   for (const line of lines) {
     if (!line.length || line.startsWith(';') || line.startsWith('#')) continue
@@ -46,8 +44,6 @@ async function parseIni(file) {
 
     Object.defineProperty(section, key, { enumerable: true, value })
   }
-
-  if (!Object.getOwnPropertyNames(result.package).length) delete result.package
 
   return result
 }
