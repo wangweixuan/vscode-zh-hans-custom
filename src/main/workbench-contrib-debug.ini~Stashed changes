@@ -1,0 +1,451 @@
+[vs/workbench/contrib/debug/browser/breakpointEditorContribution]
+addBreakpoint = 添加断点
+addConditionalBreakpoint = 添加条件断点…
+addLogPoint = 添加记录点…
+breakpoint = 断点
+breakpointHasConditionDisabled = 此{0}的{1}将在删除后丢失。请考虑仅启用此{0}。
+breakpointHasConditionEnabled = 此{0}的{1}将在删除后丢失。请考虑仅禁用此{0}。
+cancel = 取消
+condition = 条件
+disable = 禁用
+disableBreakpoint = 禁用{0}
+disableBreakpointOnLine = 禁用行断点
+disableInlineColumnBreakpoint = 禁用第 {0} 列的内联断点
+disableLogPoint = {0} {1}
+editBreakpoint = 编辑{0}…
+editBreakpoints = 编辑断点
+editInlineBreakpointOnColumn = 编辑第 {0} 列的内联断点
+editLineBrekapoint = 编辑行断点
+enable = 启用
+enableBreakpoint = 启用 {0}
+enableBreakpointOnLine = 启用行断点
+enableBreakpoints = 启用第 {0} 列的内联断点
+enableDisableBreakpoints = 启用或禁用断点
+logPoint = 记录点
+message = 消息
+removeBreakpoint = 删除 {0}
+removeBreakpoints = 删除断点
+removeInlineBreakpointOnColumn = 删除第 {0} 列的内联断点
+removeLineBreakpoint = 删除行断点
+removeLogPoint = 删除 {0}
+
+[vs/workbench/contrib/debug/browser/breakpointWidget]
+breakpointType = 断点类型
+breakpointWidgetExpressionPlaceholder = 在表达式结果为真时中断。按 Enter 键确认，按 Esc 键取消。
+breakpointWidgetHitCountPlaceholder = 在命中次数条件满足时中断。按 Enter 键确认，按 Esc 键取消。
+breakpointWidgetLogMessagePlaceholder = 断点命中时记录的消息。{} 内的表达式将被替换。按 Enter 键确认，按 Esc 键取消。
+expression = 表达式
+hitCount = 命中次数
+logMessage = 记录消息
+
+[vs/workbench/contrib/debug/browser/breakpointsView]
+Breakpoint = 断点
+Logpoint = 记录点
+breakpoint = 断点
+breakpointUnsupported = 不支持此类型的断点
+breakpointsSection = 断点部分
+dataBreakpoint = 数据断点
+dataBreakpointUnsupported = 此调试类型不支持数据断点
+dataBreakpointsNotSupported = 此调试类型不支持数据断点
+disabledBreakpoint = 已禁用的断点
+disabledLogpoint = 已禁用的记录点
+editBreakpoint = 编辑{0}…
+expression = 表达式：{0}
+functionBreakPointInputAriaLabel = 键入函数断点
+functionBreakpoint = 函数断点
+functionBreakpointPlaceholder = 要断开的函数
+functionBreakpointUnsupported = 不受此调试类型支持的函数断点
+functionBreakpointsNotSupported = 此调试类型不支持函数断点
+hitCount = 点击量数：{0}
+logMessage = 记录消息：{0}
+removeBreakpoint = 删除 {0}
+unverifiedBreakopint = 未验证的断点
+unverifiedLogpoint = 未验证的记录点
+
+[vs/workbench/contrib/debug/browser/callStackView]
+callStackAriaLabel = 调试调用堆栈
+callstackSection = 调用堆栈部分
+debugStopped = 因 {0} 已暂停
+loadMoreStackFrames = 加载多个堆栈帧
+paused = 已暂停
+restartFrame = 重新启动帧
+running = 正在运行
+session = 会话
+sessionLabel = 调试会话 {0}
+showMoreAndOrigin = 显示另外 {0} 个：{1}
+showMoreStackFrames = 显示另外 {0} 个堆栈帧
+showMoreStackFrames2 = 显示更多堆栈框架
+stackFrameAriaLabel = 堆栈帧 {0} 行 {1} {2}，调用堆栈，调试
+thread = 线程
+threadAriaLabel = 线程 {0}，调用堆栈，调试
+
+[vs/workbench/contrib/debug/browser/debug.contribution]
+allowBreakpointsEverywhere = 允许在任何文件中设置断点。
+always = 始终在状态栏中显示调试
+breakpoints = 断点
+callStack = 调用堆栈
+copyStackTrace = 拷贝调用堆栈
+debug.console.fontFamily = 调试台中的字体系列。
+debug.console.fontSize = 调试台中的字体大小，以像素为单位。
+debug.console.lineHeight = 调试台中的行高，以像素为单位。设置为 `0` 表示计算从字体大小开始的行高。
+debug.console.wordWrap = 在调试台中对较长行折行。
+debug.focusWindowOnBreak = 当调试器中断时，使工作台窗口获得焦点。
+debug.onTaskErrors = 在运行预启动任务后遇到错误时的操作。
+debugAndRun = 调试和运行
+debugAnyway = 忽略错误并开始调试。
+debugCategory = 调试
+debugCommands = 调试配置
+debugConfigurationTitle = 调试
+debugFocusConsole = 聚焦到“调试台”视图
+debugPanel = 调试台
+enableAllHovers = 调试时启用非调试悬停提示。启用后，将调用悬停提供程序来提供悬停提示。即使启用此项设置，普通悬停提示也不会显示。
+inlineBreakpoint = 内联断点
+inlineValues = 调试时在编辑器中内联显示变量值。
+jumpToCursor = 跳转到光标
+launch = 全局调试启动配置。应当作为跨工作区共享的“launch.json”的替代方法。
+loadedScripts = 已载入的脚本
+miAddConfiguration = 添加配置(&&D)…
+miConditionalBreakpoint = 条件断点(&&C)…
+miContinue = 继续(&&C)
+miDisableAllBreakpoints = 禁用所有断点(&&L)
+miEnableAllBreakpoints = 启用所有断点(&&E)
+miFunctionBreakpoint = 函数断点(&&F)…
+miInlineBreakpoint = 内联断点(&&O)
+miInstallAdditionalDebuggers = 安装附加调试器(&&I)…
+miLogPoint = 记录点(&&L)…
+miNewBreakpoint = 新建断点(&&N)
+miOpenConfigurations = 打开配置(&&C)
+miRemoveAllBreakpoints = 删除所有断点(&&A)
+miRestart Debugging = 重新启动调试(&&R)
+miRun = 运行但不调试(&&W)
+miStartDebugging = 启动调试(&&S)
+miStepInto = 单步执行(&&I)
+miStepOut = 单步停止(&&U)
+miStepOver = 单步跳过(&&O)
+miStopDebugging = 停止调试(&&S)
+miToggleBreakpoint = 切换断点(&&B)
+miToggleDebugConsole = 调试台(&&B)
+miViewDebug = 调试(&&D)
+never = 在状态栏中不再显示调试
+onFirstSessionStart = 仅于第一次启动调试后在状态栏中显示调试
+openDebug = 何时显示“调试”面板。
+openExplorerOnEnd = 在调试结束时自动显示“资源”面板。
+prompt = 询问下一步操作。
+restartFrame = 重新启动框架
+reverseContinue = 反向
+showBreakpointsInOverviewRuler = 在概览标尺中显示断点。
+showErrors = 显示“问题”面板，不开始调试。
+showInStatusBar = 何时显示调试状态栏。
+showInlineBreakpointCandidates = 调试时在编辑器中显示可能的内联断点。
+showSubSessionsInToolBar = 在调试工具栏中显示调试子会话。设置为 `false` 表示子会话上的停止命令也将停止父会话。
+stepBackDebug = 后退
+terminateThread = 终止线程
+toggleDebugPanel = 调试台
+toggleDebugViewlet = 显示调试
+toolBarLocation = 调试工具栏的位置。`floating` 悬浮在所有视图之上，`docked` 固定在“调试”面板中，`hidden` 隐藏。
+variables = 变量
+view = 视图
+watch = 监视
+
+[vs/workbench/contrib/debug/browser/debugActionViewItems]
+addConfigTo = 添加配置（{0}）…
+addConfiguration = 添加配置…
+debugLaunchConfigurations = 调试启动配置
+debugSession = 调试会话
+noConfigurations = 没有配置
+
+[vs/workbench/contrib/debug/browser/debugActions]
+activateBreakpoints = 激活断点
+addFunctionBreakpoint = 添加函数断点
+addWatchExpression = 添加表达式
+copyValue = 拷贝值
+deactivateBreakpoints = 停用断点
+disableAllBreakpoints = 禁用所有断点
+enableAllBreakpoints = 启用所有断点
+focusSession = 聚焦到“会话”视图
+launchJsonNeedsConfigurtion = 配置或修复“launch.json”
+noFolderDebugConfig = 请先打开一个文件夹以进行高级调试配置。
+openLaunchJson = 打开 {0}
+reapplyAllBreakpoints = 重新应用所有断点
+removeAllBreakpoints = 删除所有断点
+removeAllWatchExpressions = 删除所有表达式
+removeBreakpoint = 删除断点
+selectAndStartDebugging = 选择并开始调试
+startDebug = 开始调试
+startWithoutDebugging = 开始执行（不调试）
+
+[vs/workbench/contrib/debug/browser/debugCallStackContribution]
+debugIcon.breakpointCurrentStackframeForeground = 当前堆栈帧断点图标的颜色。
+debugIcon.breakpointDisabledForeground = 已禁用断点图标的颜色。
+debugIcon.breakpointForeground = 断点图标的颜色。
+debugIcon.breakpointStackframeForeground = 堆栈帧断点图标的颜色。
+debugIcon.breakpointUnverifiedForeground = 未验证断点图标的颜色。
+focusedStackFrameLineHighlight = 堆栈帧中焦点一行的高亮背景色。
+topStackFrameLineHighlight = 堆栈帧中顶部一行的高亮背景色。
+
+[vs/workbench/contrib/debug/browser/debugCommands]
+addInlineBreakpoint = 添加内联断点
+chooseLocation = 选择特定的位置
+continueDebug = 继续
+debug = 调试
+disconnect = 断开连接
+jumpToCursor = 跳转到光标
+noExecutableCode = 当前光标位置没有可执行的代码。
+noFolderDebugConfig = 请先打开一个文件夹以进行高级调试配置。
+pauseDebug = 暂停
+restartDebug = 重新启动
+stepIntoDebug = 单步调试
+stepOutDebug = 单步跳出
+stepOverDebug = 单步跳过
+stop = 停止
+
+[vs/workbench/contrib/debug/browser/debugConfigurationManager]
+DebugConfig.failed = 未能在“.vscode”文件夹（{0}）内创建“launch.json”文件。
+debugNoType = 调试器的 `type` 属性值（不可省略）应是字符串。
+more = 更多…
+selectDebug = 选择环境
+user settings = 用户设置
+workspace = 工作区
+
+[vs/workbench/contrib/debug/browser/debugEditorActions]
+conditionalBreakpointEditorAction = 调试：添加条件断点…
+debugAddToWatch = 调试：添加到监视
+debugEvaluate = 调试：求值
+goToNextBreakpoint = 调试：转到下一个断点
+goToPreviousBreakpoint = 调试：到前面的断点
+logPointEditorAction = 调试：添加记录点…
+runToCursor = 运行到光标处
+showDebugHover = 调试：显示悬停
+toggleBreakpointAction = 调试：切换断点
+
+[vs/workbench/contrib/debug/browser/debugEditorContribution]
+addConfiguration = 添加配置…
+
+[vs/workbench/contrib/debug/browser/debugHover]
+treeAriaLabel = 调试悬停
+variableAriaLabel = {0} 值 {1}，变量，调试
+
+[vs/workbench/contrib/debug/browser/debugQuickOpen]
+addConfigTo = 添加配置（{0}）…
+addConfiguration = 添加配置…
+debugAriaLabel = 键入启动配置的名称以运行。
+entryAriaLabel = {0}，调试
+noConfigurationsFound = 找不到任何调试配置。请创建一个“launch.json”文件。
+noConfigurationsMatching = 无任何调试配置匹配
+
+[vs/workbench/contrib/debug/browser/debugService]
+DebugTaskNotFound = 找不到指定的任务。
+DebugTaskNotFoundWithTaskId = 找不到任务“{0}”。
+breakpointAdded = 已添加断点，行 {0}，文件 {1}
+breakpointRemoved = 已删除断点，行 {0，文件 {1}
+cancel = 取消
+compoundMustHaveConfigurations = 复合项必须拥有 `configurations` 属性集，才能启动多个配置。
+configMissing = “launch.json”中缺少配置“{0}”。
+configurationAlreadyRunning = 调试配置“{0}”已在运行。
+debugAdapterCrash = 调试适配器进程意外终止（{0}）
+debugAnyway = 仍进行调试
+debugRequesMissing = 所选的调试配置缺少属性“{0}”。
+debugRequestNotSupported = 所选调试配置的属性“{0}”的值“{1}”不受支持。
+debugTypeMissing = 所选的启动配置缺少属性“type”。
+debugTypeNotSupported = 配置的类型“{0}”不受支持。
+debuggingPaused = 调试暂停的 {0}，{1} {2} {3}
+invalidTaskReference = 未能在其他工作区文件夹的启动配置中引用任务“{0}”。
+launchJsonDoesNotExist = “launch.json”不存在。
+multipleConfigurationNamesInWorkspace = 工作区中存在多个启动配置“{0}”。请使用文件夹名称来限定配置。
+noConfigurationNameInWorkspace = 在工作区中找不到启动配置“{0}”。
+noFolderWithName = 未能在复合项“{2}”中为配置“{1}”找到名为“{0}”的文件夹。
+noFolderWorkspaceDebugError = 未能调试活动文件。请确保它存储在硬盘上，并确保已为该文件类型安装了调试扩展。
+preLaunchTaskError = 运行 preLaunchTask“{0}”时出错。
+preLaunchTaskErrors = 运行 preLaunchTask“{0}”时出错。
+preLaunchTaskExitCode = preLaunchTask“{0}”已终止，退出代码为 {1}。
+remember = 记住选择
+showErrors = 显示错误
+taskNotTracked = 未能跟踪任务“{0}”。
+taskNotTrackedWithTaskId = 未能跟踪指定的任务。
+
+[vs/workbench/contrib/debug/browser/debugSession]
+debuggingStarted = 已开始调试。
+debuggingStopped = 已停止调试。
+sessionNotReadyForBreakpoints = 会话还没有为断点做好准备。
+
+[vs/workbench/contrib/debug/browser/debugStatus]
+selectAndStartDebug = 选择并启动调试配置
+status.debug = 调试
+
+[vs/workbench/contrib/debug/browser/debugToolBar]
+debugIcon.continueForeground = 调试工具栏中用于继续的图标的颜色。
+debugIcon.disconnectForeground = 调试工具栏中用于断开连接的图标的颜色。
+debugIcon.pauseForeground = 调试工具栏中用于暂停的图标的颜色。
+debugIcon.restartForeground = 调试工具栏中用于重新启动的图标的颜色。
+debugIcon.startForeground = 调试工具栏中用于开始调试的图标的颜色。
+debugIcon.stepBackForeground = 调试工具栏中用于后退的图标的颜色。
+debugIcon.stepIntoForeground = 调试工具栏中用于单步执行的图标的颜色。
+debugIcon.stepOutForeground = 调试工具栏中用于跳过的图标的颜色。
+debugIcon.stepOverForeground = 调试工具栏中用于单步执行的图标的颜色。
+debugIcon.stopForeground = 调试工具栏中用于停止的图标的颜色。
+debugToolBarBackground = 调试工具栏背景色。
+debugToolBarBorder = 调试工具栏边框颜色。
+
+[vs/workbench/contrib/debug/browser/debugViewlet]
+debugConsoleAction = 调试台
+startAdditionalSession = 启动其他会话
+
+[vs/workbench/contrib/debug/browser/exceptionWidget]
+debugExceptionWidgetBackground = 异常小组件背景色。
+debugExceptionWidgetBorder = 异常小组件边框颜色。
+exceptionThrown = 出现异常。
+exceptionThrownWithId = 发生异常：{0}
+
+[vs/workbench/contrib/debug/browser/linkDetector]
+fileLink = 点击打开（按住 Ctrl 键并点击在侧边打开）
+fileLinkMac = 点击打开（按住 Command 键并点击在侧边打开）
+
+[vs/workbench/contrib/debug/browser/loadedScriptsView]
+loadedScriptsAriaLabel = 在调试中已加载的脚本
+loadedScriptsFolderAriaLabel = 文件夹 {0}，已加载的脚本，调试
+loadedScriptsRootFolderAriaLabel = 工作区文件夹 {0}，已加载的脚本，调试
+loadedScriptsSection = “已加载脚本”部分
+loadedScriptsSession = 调试会话
+loadedScriptsSessionAriaLabel = 会话 {0}，已加载的脚本，调试
+loadedScriptsSourceAriaLabel = {0}，已加载的脚本，调试
+
+[vs/workbench/contrib/debug/browser/rawDebugSession]
+moreInfo = 详细信息
+
+[vs/workbench/contrib/debug/browser/repl]
+actions.repl.acceptInput = 接受 REPL 的输入
+actions.repl.copyAll = 调试：拷贝调试台所有内容
+clearRepl = 清除控制台
+collapse = 全部折叠
+copy = 拷贝
+copyAll = 全部拷贝
+debugConsole = 调试台
+debugConsoleCleared = 调试台已清除
+repl.action.filter = 在筛选器中聚焦 REPL 内容
+replAriaLabel = REPL 面板
+replRawObjectAriaLabel = Repl 变量 {0} 具有值 {1}，REPL，调试
+replValueOutputAriaLabel = {0}，REPL，调试
+replVariableAriaLabel = 变量 {0} 具有值 {1}，REPL，调试
+selectRepl = 选择调试台
+startDebugFirst = 开始调试以计算表达式
+stateCapture = 对象状态捕获自第一个评估
+
+[vs/workbench/contrib/debug/browser/startView]
+andconfigure = 并创建一个“launch.json”文件。
+canBeDebuggedOrRun = 可被调试或运行。
+configure = 创建“launch.json”文件。
+debug = 调试
+debugStart = 调试开始部分
+debugWith = 使用{0}进行调试
+noLaunchConfiguration = 要继续配置调试和运行，
+openFile = 打开文件
+openFolder = 打开文件夹
+run = 运行
+runWith = 以{0}运行
+simplyDebugAndRun = 打开可以调试或运行的文件。
+specifyHowToRun = 继续配置调试和运行
+start = 启动
+
+[vs/workbench/contrib/debug/browser/statusbarColorProvider]
+statusBarDebuggingBackground = 调试程序时状态栏的背景色。状态栏显示在窗口底部
+statusBarDebuggingBorder = 调试程序时区别于侧边栏和编辑器的状态栏边框颜色。状态栏显示在窗口底部。
+statusBarDebuggingForeground = 调试程序时状态栏的前景色。状态栏显示在窗口底部
+
+[vs/workbench/contrib/debug/browser/variablesView]
+addToWatchExpressions = 添加到监视
+breakWhenValueChanges = 在值更改时中断
+copyAsExpression = 拷贝表达式
+setValue = 设置值
+variableAriaLabel = {0} 值 {1}，变量，调试
+variableScopeAriaLabel = 范围 {0}，变量，调试
+variableValueAriaLabel = 键入新的变量值
+variablesAriaTreeLabel = 调试变量
+variablesSection = 变量部分
+
+[vs/workbench/contrib/debug/browser/watchExpressionsView]
+editWatchExpression = 编辑表达式
+removeWatchExpression = 删除表达式
+watchAriaTreeLabel = 调试监视表达式
+watchExpressionAriaLabel = {0} 值 {1}，监视，调试
+watchExpressionInputAriaLabel = 键入监视表达式
+watchExpressionPlaceholder = 要监视的表达式
+watchExpressionsSection = “监视表达式”部分
+watchVariableAriaLabel = {0} 值 {1}，监视，调试
+
+[vs/workbench/contrib/debug/common/debug]
+internalConsoleOptions = 何时打开调试台。
+
+[vs/workbench/contrib/debug/common/debugContentProvider]
+canNotResolveSource = 未能加载源“{0}”。
+canNotResolveSourceWithError = 未能加载源“{0}”：{1}。
+unable = 未能解析无调试会话的资源
+
+[vs/workbench/contrib/debug/common/debugModel]
+breakpointDirtydHover = 未验证的断点。对文件进行了修改，请重新启动调试会话。
+notAvailable = 不可用
+paused = 已暂停
+pausedOn = 因 {0} 已暂停
+running = 正在运行
+startDebugFirst = 开始调试以计算表达式
+
+[vs/workbench/contrib/debug/common/debugSchemas]
+app.launch.json.compound.folder = 复合项所在的文件夹的名称。
+app.launch.json.compound.name = 复合的名称。在启动配置下拉菜单中显示。
+app.launch.json.compounds = 复合列表。每个复合可引用多个配置，这些配置将一起启动。
+app.launch.json.compounds.configurations = 将作为此复合的一部分启动的配置名称。
+app.launch.json.configurations = 配置列表。使用智能感知添加新配置或编辑现有配置。
+app.launch.json.title = 启动
+app.launch.json.version = 此文件格式的版本。
+compoundPrelaunchTask = 要在任何复合配置开始之前运行的任务。
+useUniqueNames = 配置名称必须唯一。
+vscode.extension.contributes.breakpoints = 添加断点。
+vscode.extension.contributes.breakpoints.language = 对此语言允许断点。
+vscode.extension.contributes.debuggers = 用于调试适配器。
+vscode.extension.contributes.debuggers.adapterExecutableCommand = 如果指定的 VS Code 将调用此命令以确定调试适配器的可执行路径和要传递的参数。
+vscode.extension.contributes.debuggers.args = 要传递给适配器的可选参数。
+vscode.extension.contributes.debuggers.configurationAttributes = 用于验证“launch.json”的 JSON 架构配置。
+vscode.extension.contributes.debuggers.configurationSnippets = 用于在“launch.json”中添加新配置的代码段。
+vscode.extension.contributes.debuggers.initialConfigurations = 用于生成初始“launch.json”的配置。
+vscode.extension.contributes.debuggers.label = 显示此调试适配器的名称。
+vscode.extension.contributes.debuggers.languages = 可能被视为“默认调试程序”的调试扩展的语言列表。
+vscode.extension.contributes.debuggers.linux = Linux 特定的设置。
+vscode.extension.contributes.debuggers.linux.runtime = 用于 Linux 的运行时。
+vscode.extension.contributes.debuggers.osx = macOS 特定的设置。
+vscode.extension.contributes.debuggers.osx.runtime = 用于 macOS 的运行时。
+vscode.extension.contributes.debuggers.program = 调试适配器程序的路径。该路径是绝对路径或相对于扩展文件夹的相对路径。
+vscode.extension.contributes.debuggers.runtime = 可选运行时，以防程序属性不可执行，但需要运行时。
+vscode.extension.contributes.debuggers.runtimeArgs = 可选运行时参数。
+vscode.extension.contributes.debuggers.type = 此调试适配器的唯一标识符。
+vscode.extension.contributes.debuggers.variables = 将“launch.json”中的交互式变量（例如 ${action.pickProcess}）映射到命令中。
+vscode.extension.contributes.debuggers.windows = Windows 特定的设置。
+vscode.extension.contributes.debuggers.windows.runtime = 用于 Windows 的运行时。
+
+[vs/workbench/contrib/debug/common/debugSource]
+unknownSource = 未知源
+
+[vs/workbench/contrib/debug/common/debugger]
+cannot.find.da = 找不到类型为“{0}”的调试适配器。
+debugLinuxConfiguration = 特定于 Linux 的启动配置属性。
+debugName = 配置名称；在启动配置下拉菜单中显示。
+debugOSXConfiguration = 特定于 macOS 的启动配置属性。
+debugPostDebugTask = 调试会话结束后运行的任务。
+debugPrelaunchTask = 调试会话开始前要运行的任务。
+debugRequest = 请求配置类型。可以是 `"launch"` 或 `"attach"`。
+debugServer = 仅用于调试扩展开发：如果已指定端口，VS Code 会尝试连接到在服务器模式中运行的调试适配器
+debugType = 配置类型。
+debugTypeNotRecognised = 未能识别此调试类型。确保已经安装并启用相应的调试扩展。
+debugWindowsConfiguration = 特定于 Windows 的启动配置属性。
+launch.config.comment1 = 使用智能感知了解相关属性。
+launch.config.comment2 = 悬停以查看现有属性的描述。
+launch.config.comment3 = 欲了解更多信息，请访问：{0}
+node2NotSupported = 不再支持 `node2`，请改用 `node`，并将 `protocol` 属性设为 `inspector`。
+
+[vs/workbench/contrib/debug/common/replModel]
+consoleCleared = 控制台已清除
+snapshotObj = 仅显示了此对象的基元值。
+
+[vs/workbench/contrib/debug/node/debugAdapter]
+debugAdapterBinNotFound = 调试适配器可执行的“{0}”不存在。
+debugAdapterCannotDetermineExecutable = 未能确定调试适配器“{0}”的可执行文件。
+unableToLaunchDebugAdapter = 未能从“{0}”启动调试适配器。
+unableToLaunchDebugAdapterNoArgs = 未能启动调试适配器。

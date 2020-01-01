@@ -1,0 +1,385 @@
+[vs/workbench/contrib/callHierarchy/browser/callHierarchy.contribution]
+error = 无法显示调用层次结构
+no.item = 无结果
+title = 速览调用层次结构
+title.refocus = 重新聚焦调用层次结构
+title.toggle = 显示或隐藏调用层次结构
+
+[vs/workbench/contrib/callHierarchy/browser/callHierarchyPeek]
+callFrom = 调用者：“{0}”
+callsTo = 调用对象：“{0}”
+empt.callsFrom = 没有来自“{0}”的调用
+empt.callsTo = 没有对“{0}”的调用
+title.loading = 正在加载…
+toggle.from = 显示呼叫
+toggle.to = 显示调用者
+tree.aria = 调用层次结构
+
+[vs/workbench/contrib/comments/browser/commentGlyphWidget]
+editorGutterCommentRangeForeground = 编辑器行号栏中表示评论范围的颜色。
+
+[vs/workbench/contrib/comments/browser/commentNode]
+commentAddReactionDefaultError = 未能删除评论回应
+commentAddReactionError = 未能删除评论回应：{0}。
+commentDeleteReactionDefaultError = 未能删除评论回应
+commentDeleteReactionError = 未能删除评论回应：{0}。
+commentToggleReaction = 切换反应
+commentToggleReactionDefaultError = 切换注释反应失败
+commentToggleReactionError = 切换注释反应失败：{0}。
+
+[vs/workbench/contrib/comments/browser/commentThreadWidget]
+commentThreadParticipants = 参与者：{0}
+label.collapse = 折叠
+newComment = 键入新注释
+reply = 回复…
+startThread = 开始讨论
+
+[vs/workbench/contrib/comments/browser/comments.contribution]
+commentsConfigurationTitle = 评论
+openComments = 何时打开评论面板。
+
+[vs/workbench/contrib/comments/browser/commentsEditorContribution]
+nextCommentThreadAction = 转到下一条评论串
+pickCommentService = 选择注释提供程序
+
+[vs/workbench/contrib/comments/browser/commentsPanel]
+collapseAll = 全部折叠
+
+[vs/workbench/contrib/comments/browser/commentsTreeViewer]
+image = 图片
+imageWithLabel = 图片：{0}
+
+[vs/workbench/contrib/comments/browser/reactionsAction]
+pickReactions = 选取反应…
+
+[vs/workbench/contrib/comments/common/commentModel]
+noComments = 此次审查中没有评论。
+
+[vs/workbench/contrib/markers/browser/markers]
+totalProblems = 总计 {0} 个问题
+
+[vs/workbench/contrib/markers/browser/markers.contribution]
+copyMarker = 拷贝
+copyMessage = 拷贝消息
+manyProblems = 多于 1 万
+miMarker = 问题(&&P)
+noProblems = 没有问题
+problems = 问题
+show multiline = 在多行中显示消息
+show singleline = 在单行中显示消息
+status.problems = 问题
+totalErrors = {0} 条错误
+totalInfos = {0} 条信息
+totalWarnings = {0} 条警告
+
+[vs/workbench/contrib/markers/browser/markersFileDecorations]
+label = 问题
+markers.showOnFile = 在文件和文件夹上显示错误和警告。
+tooltip.1 = 此文件存在 1 个问题
+tooltip.N = 此文件存在 {0} 个问题
+
+[vs/workbench/contrib/markers/browser/markersPanel]
+No problems filtered = 显示 {0} 个问题
+clearFilter = 清除筛选
+collapseAll = 全部折叠
+problems filtered = 显示第 {0} 个（共 {1} 个）问题
+
+[vs/workbench/contrib/markers/browser/markersPanelActions]
+showing filtered problems = 显示 {0} / {1}
+
+[vs/workbench/contrib/markers/browser/markersTreeViewer]
+multi line = 在多行中显示消息
+single line = 在单行中显示消息
+
+[vs/workbench/contrib/markers/browser/messages]
+errors.warnings.show.label = 显示错误和警告
+markers.panel.action.filter = 筛选器问题
+markers.panel.action.moreFilters = 更多过滤器…
+markers.panel.action.quickfix = 显示修复方案
+markers.panel.at.ln.col.number = [{0}, {1}]
+markers.panel.filter.activeFile = 仅限当前文件
+markers.panel.filter.ariaLabel = 筛选器问题
+markers.panel.filter.errors = 错误
+markers.panel.filter.infos = 信息
+markers.panel.filter.placeholder = 筛选。例如 text, **/*.ts, !**/node_modules/**
+markers.panel.filter.showErrors = 包括错误
+markers.panel.filter.showInfos = 包括信息
+markers.panel.filter.showWarnings = 包括警告
+markers.panel.filter.useFilesExclude = 隐藏排除的文件
+markers.panel.filter.warnings = 警告
+markers.panel.multiple.errors.label = {0} 条错误
+markers.panel.multiple.infos.label = {0} 条信息
+markers.panel.multiple.unknowns.label = {0} 条未归类问题
+markers.panel.multiple.warnings.label = {0} 条警告
+markers.panel.no.problems.activeFile.build = 到当前文件中未检测到问题。
+markers.panel.no.problems.build = 没有问题。
+markers.panel.no.problems.filters = 没有符合筛选条件的问题。
+markers.panel.single.error.label = 1 条错误
+markers.panel.single.info.label = 1 条信息
+markers.panel.single.unknown.label = 1 条未归类问题
+markers.panel.single.warning.label = 1 条警告
+markers.panel.title.problems = 问题
+problems.panel.configuration.autoreveal = 在打开文件时，在“问题”视图中对其进行定位。
+problems.panel.configuration.showCurrentInStatus = 在状态栏中显示当前问题。
+problems.panel.configuration.title = 问题预览
+problems.tree.aria.label.error.marker = {0} 生成的错误：行 {2}，列 {3}，{1}。{4}
+problems.tree.aria.label.error.marker.nosource = 错误：行 {1}，列 {2}，{0}。{3}
+problems.tree.aria.label.info.marker = {0} 生成的信息：行 {2}，列 {3}，{1}。{4}
+problems.tree.aria.label.info.marker.nosource = 信息：行 {1}，列 {2}，{0}。{3}
+problems.tree.aria.label.marker = {0} 生成的问题：行 {2}，列 {3}，{1}。{4}
+problems.tree.aria.label.marker.nosource = 问题：行 {1}，列 {2}，{0}。{3}
+problems.tree.aria.label.marker.relatedInformation = 此问题包含对 {0} 个位置的引用。
+problems.tree.aria.label.relatedinfo.message = {3} 的 行 {1}，列 {2}，{0}
+problems.tree.aria.label.resource = 在文件夹 {2} 的文件 {1} 中有 {0} 个问题
+problems.tree.aria.label.warning.marker = {0} 生成的警告：行 {2}，列 {3}，{1}。{4}
+problems.tree.aria.label.warning.marker.nosource = 警告：行 {1}，列 {2}，{0}。{3}
+problems.view.focus.label = 聚焦到问题（错误、警告、信息）
+problems.view.toggle.label = 切换问题（错误、警告、信息）视图
+viewCategory = 视图
+
+[vs/workbench/contrib/outline/browser/outline.contribution]
+filteredTypes.array = 显示数组。
+filteredTypes.boolean = 显示布尔。
+filteredTypes.class = 显示类。
+filteredTypes.constant = 显示常量。
+filteredTypes.constructor = 显示构造函数。
+filteredTypes.enum = 显示枚举。
+filteredTypes.enumMember = 显示枚举成员。
+filteredTypes.event = 显示事件。
+filteredTypes.field = 显示字段。
+filteredTypes.file = 显示文件。
+filteredTypes.function = 显示函数。
+filteredTypes.interface = 显示接口。
+filteredTypes.key = 显示键。
+filteredTypes.method = 显示方法。
+filteredTypes.module = 显示模块。
+filteredTypes.namespace = 显示命名空间。
+filteredTypes.null = 显示 null。
+filteredTypes.number = 显示数字。
+filteredTypes.object = 显示对象。
+filteredTypes.operator = 显示运算符。
+filteredTypes.package = 显示包。
+filteredTypes.property = 显示属性。
+filteredTypes.string = 显示字符串。
+filteredTypes.struct = 显示结构。
+filteredTypes.typeParameter = 显示类型参数。
+filteredTypes.variable = 显示变量。
+name = 大纲
+outline.problem.colors = 使用颜色表示错误和警告。
+outline.problems.badges = 使用错误和警告的徽章。
+outline.showIcons = 显示大纲元素的图标。
+outline.showProblem = 显示大纲元素上的错误和警告。
+outlineConfigurationTitle = 大纲
+
+[vs/workbench/contrib/outline/browser/outlinePane]
+collapse = 全部折叠
+filterOnType = 在输入时筛选
+followCur = 跟随光标
+loading = 正在加载“{0}”的文档符号…
+no-editor = 活动编辑器没有大纲信息。
+no-symbols = 在文档“{0}”中找不到符号
+sortByKind = 按类型排序
+sortByName = 按名称排序
+sortByPosition = 按来源排序
+
+[vs/workbench/contrib/output/browser/output.contribution]
+clearOutput.label = 清除输出
+developer = 开发者
+logViewer = 日志查看器
+miToggleOutput = 输出(&&O)
+openActiveLogOutputFile = 打开活动日志输出文件
+output = 输出
+viewCategory = 视图
+
+[vs/workbench/contrib/output/browser/outputActions]
+clearOutput = 清除输出
+logChannel = 日志（{0}）
+openInLogViewer = 打开日志文件
+openLogFile = 打开日志文件…
+outputChannels = 输出通道。
+outputCleared = 输出被清除
+outputScrollOff = 关闭自动滚动
+outputScrollOn = 打开自动滚动
+selectlog = 选择日志
+selectlogFile = 选择日志文件
+showLogs = 显示日志…
+switchToOutput.label = 切换到输出
+toggleOutput = 切换输出
+toggleOutputScrollLock = 切换输出滚动锁定
+
+[vs/workbench/contrib/output/browser/outputPanel]
+output = 输出
+outputPanelAriaLabel = 输出面板
+outputPanelWithInputAriaLabel = {0}，输出面板
+
+[vs/workbench/contrib/output/browser/outputServices]
+channel = “{0}”的输出通道
+output = {0} - 输出
+
+[vs/workbench/contrib/search/browser/openAnythingHandler]
+fileAndTypeResults = 文件和符号结果
+fileResults = 文件结果
+
+[vs/workbench/contrib/search/browser/openFileHandler]
+entryAriaLabel = {0}，文件选取器
+searchResults = 搜索结果
+
+[vs/workbench/contrib/search/browser/openSymbolHandler]
+entryAriaLabel = {0}，符号选取器
+noSymbolsMatching = 没有匹配的符号
+noSymbolsWithoutInput = 键入以搜索符号
+symbols = 符号结果
+
+[vs/workbench/contrib/search/browser/patternInputWidget]
+defaultLabel = 输入
+useExcludesAndIgnoreFilesDescription = 使用“排除设置”与“忽略文件”
+
+[vs/workbench/contrib/search/browser/replaceService]
+fileReplaceChanges = {0} ↔ {1}（替换预览）
+
+[vs/workbench/contrib/search/browser/search.contribution]
+clearSearchHistoryLabel = 清除搜索历史记录
+copyAllLabel = 全部拷贝
+copyMatchLabel = 拷贝
+copyPathLabel = 拷贝路径
+exclude = 配置在搜索中排除的文件和文件夹的 glob 模式。已经继承 `#files.exclude#` 设置的所有 glob 模式。可在[此处](https://code.visualstudio.com/docs/editor/codebasics#_advanced-search-options)阅读有关 glob 模式的详细信息。
+exclude.boolean = 匹配文件路径所依据的 glob 模式。设置为 `true` 或 `false` 可启用或禁用该模式。
+exclude.when = 对匹配文件的同级文件的其他检查。使用 $(basename) 作为匹配文件名的变量。
+findInFiles = 跨文件查找
+findInFolder = 在文件夹中查找…
+findInWorkspace = 在工作区中查找…
+focusSearchListCommandLabel = 聚焦到列表
+miFindInFiles = 跨文件查找(&&I)
+miGotoSymbolInWorkspace = 转到工作区中的符号(&&W)…
+miReplaceInFiles = 跨文件替换(&&I)
+miViewSearch = 搜索(&&S)
+name = 搜索
+openAnythingHandlerDescription = 转到文件
+openSymbolDescriptionNormal = 转到工作区中的符号
+revealInSideBar = 在“资源”面板中显示
+search = 搜索
+search.actionsPosition = 在搜索视图操作栏的位置。
+search.actionsPositionAuto = 当搜索视图较窄时将操作栏置于右侧，当搜索视图较宽时，将它紧接在内容之后。
+search.actionsPositionRight = 始终将操作栏放置在右侧。
+search.collapseAllResults = 是折叠还是展开搜索结果。
+search.enableSearchEditorPreview = （测试性）允许在编辑器中显示工作区搜索结果。
+search.followSymlinks = 在搜索中跟踪符号链接。
+search.globalFindClipboard = 搜索时读取或修改 macOS 的共享查找粘贴板。
+search.location = 使“搜索”面板显示在侧边栏或底边栏。
+search.maintainFileSearchCache = 使搜索服务进程将保持活动状态，而不是在一个小时不活动后关闭。这将使文件搜索缓存保留在内存中。
+search.quickOpen.includeHistory = 在“快速打开”的文件结果中包含最近打开的文件。
+search.quickOpen.includeSymbols = “快速打开”文件结果中是否包括全局符号搜索的结果。
+search.searchOnType = 在输入内容时自动搜索。
+search.searchOnTypeDebouncePeriod = 输入内容后自动搜索前的延时（以毫秒为单位）。适用于 `#search.searchOnType` 选项启用时。
+search.showLineNumbers = 显示搜索结果所在的行号。
+search.smartCase = 若搜索词全为小写，则不区分大小写进行搜索，否则区分大小写进行搜索。
+search.usePCRE2 = 在文本搜索中使用 pcre2 正则表达式引擎。这允许使用一些高级正则表达式功能，如前瞻和反向引用。
+search.useReplacePreview = 在选择或替换匹配项时打开“替换预览”视图。
+searchConfigurationTitle = 搜索
+showTriggerActions = 转到工作区中的符号…
+toggleSearchViewPositionLabel = 切换搜索视图位置
+useGlobalIgnoreFiles = 在搜索文件时使用全局“.gitignore”和“.ignore”文件。
+useIgnoreFiles = 在搜索文件时使用“.gitignore”和“.ignore”文件。
+usePCRE2Deprecated = 已弃用：当使用仅支持 PCRE2 的正则表达式功能时，将自动使用 PCRE2。
+useRipgrep = 已弃用：请改用 `search.usePCRE2`。
+useRipgrepDeprecated = 已弃用：请改用 `search.usePCRE2` 获取对高级正则表达式功能的支持。
+view = 视图
+
+[vs/workbench/contrib/search/browser/searchActions]
+CancelSearchAction.label = 取消搜索
+ClearSearchResultsAction.label = 清除搜索结果
+CollapseDeepestExpandedLevelAction.label = 全部折叠
+FocusNextSearchResult.label = 聚焦到下一搜索结果
+FocusPreviousSearchResult.label = 聚焦到上一搜索结果
+RefreshAction.label = 刷新
+RemoveAction.label = 消除
+file.replaceAll.label = 全部替换
+lines = 上下文内容
+match.replace.label = 替换
+mustBeInteger = 必须为整数
+replaceInFiles = 跨文件替换
+search.openResultsInEditor = 在编辑器中显示结果
+search.rerunEditorSearch = 重新搜索
+search.rerunEditorSearchContext = 重新搜索（显示上下文）
+showSearch = 显示搜索
+toggleTabs = 切换标签页搜索
+
+[vs/workbench/contrib/search/browser/searchEditor]
+invalidQueryStringError = 查找字符串中的反斜杠必须被转义（////）
+
+[vs/workbench/contrib/search/browser/searchPanel]
+search = 搜索
+
+[vs/workbench/contrib/search/browser/searchResultsView]
+fileMatchAriaLabel = 文件夹 {2} 的文件 {1} 中有 {0} 个匹配项，搜索结果
+folderMatchAriaLabel = 根目录 {1} 中找到 {0} 个匹配，搜索结果
+lineNumStr = 位于第 {0} 行
+numLinesStr = 其他 {0} 行
+otherFilesAriaLabel = 在工作区外存在 {0} 个匹配，搜索结果
+replacePreviewResultAria = 在第 {2} 列替换词组 {0} 为 {1}，同行文本为 {3}
+searchFileMatch = 已找到 {0} 个文件
+searchFileMatches = 已找到 {0} 个文件
+searchFolderMatch.other.label = 其他文件
+searchMatch = 已找到 {0} 个匹配项
+searchMatches = 已找到 {0} 个匹配项
+searchResultAria = 在第 {1} 列找到词组 {0}，同行文本为 {2}
+
+[vs/workbench/contrib/search/browser/searchView]
+ariaSearchResultsClearStatus = 搜索结果已清除
+ariaSearchResultsStatus = 搜索 {1} 文件中返回的 {0} 个结果
+label.excludes = 搜索排除模式
+label.includes = 搜索包含模式
+moreSearch = 切换搜索详细信息
+noResultsExcludes = 除“{0}”外，没有任何结果 -\s
+noResultsFound = 没有结果。查看您的设置配置排除，并检查您的“.gitignore”文件-\s
+noResultsIncludes = “{0}”中没有任何结果 -\s
+noResultsIncludesExcludes = 在“{0}”中找不到结果（“{1}”除外）-\s
+openFolder = 打开文件夹
+openInEditor.message = 在编辑器中打开
+openInEditor.tooltip = 将搜索结果拷贝到编辑器
+openSettings.learnMore = 了解详细信息
+openSettings.message = 打开设置
+removeAll.occurrence.file.confirmation.message = 是否将 {1} 文件中出现的 {0} 替换为“{2}”？
+removeAll.occurrence.file.message = 已替换 {1} 文件中出现的 {0}。
+removeAll.occurrence.files.confirmation.message = 是否将 {1} 文件中出现的 {0} 替换为“{2}”？
+removeAll.occurrence.files.message = 已替换 {1} 文件中出现的 {0}。
+removeAll.occurrences.file.confirmation.message = 是否将 {1} 文件中出现的 {0} 替换为“{2}”？
+removeAll.occurrences.file.message = 已替换 {1} 文件中出现的 {0}。
+removeAll.occurrences.files.confirmation.message = 是否将 {1} 个文件中的 {0} 次匹配替换为“{2}”？
+removeAll.occurrences.files.message = 已替换 {1} 文件中出现的 {0}。
+replaceAll.confirm.button = 替换(&&R)
+replaceAll.confirmation.title = 全部替换
+replaceAll.occurrence.file.confirmation.message = 替换 {1} 个文件中出现的全部 {0} 处？
+replaceAll.occurrence.file.message = 已将 {1} 文件中出现的 {0} 替换为“{2}”。
+replaceAll.occurrence.files.confirmation.message = 是否替换 {1} 文件中出现的 {0}？
+replaceAll.occurrence.files.message = 已将 {1} 文件中出现的 {0} 替换为“{2}”。
+replaceAll.occurrences.file.confirmation.message = 是否替换 {1} 文件中出现的 {0}？
+replaceAll.occurrences.file.message = 已将 {1} 文件中出现的 {0} 替换为“{2}”。
+replaceAll.occurrences.files.confirmation.message = 是否替换 {1} 文件中出现的 {0}？
+replaceAll.occurrences.files.message = 已将 {1} 个文件中出现的 {0} 处替换为“{2}”。
+rerunSearch.message = 重新搜索
+rerunSearchInAll.message = 在所有文件中重新搜索
+search.file.result = {0} 个结果，包含于 {1} 个文件中
+search.file.results = {1} 文件中有 {0} 个结果
+search.files.result = {1} 文件中有 {0} 个结果
+search.files.results = {1} 文件中有 {0} 个结果
+searchCanceled = 在找到结果前取消了搜索 -\s
+searchMaxResultsWarning = 结果集仅包含所有匹配项的子集。请使您的搜索更加具体，减少结果。
+searchPathNotFoundError = 找不到搜索路径：{0}
+searchScope.excludes = 排除的文件
+searchScope.includes = 要包含的文件
+searchView = 搜索
+searchWithoutFolder = 尚未打开文件夹。当前仅可搜索打开的文件夹 -\s
+useIgnoresAndExcludesDisabled = \s- 排除设置和忽略文件被禁用了
+
+[vs/workbench/contrib/search/browser/searchWidget]
+label.Replace = 替换：键入待替换词，然后按 Enter 键预览，或按 Esc 键取消
+label.Search = 搜索：键入搜索词，然后按 Enter 键搜索，或按 Esc 键取消
+search.action.replaceAll.disabled.label = 全部替换（提交搜索以启用）
+search.action.replaceAll.enabled.label = 全部替换
+search.placeHolder = 搜索
+search.replace.placeHolder = 替换
+search.replace.toggle.button.title = 切换替换
+
+[vs/workbench/contrib/search/common/queryBuilder]
+search.noWorkspaceWithName = 工作区中没有名为“{0}”的文件夹

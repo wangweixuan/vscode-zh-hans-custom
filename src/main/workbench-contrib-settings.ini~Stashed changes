@@ -1,0 +1,369 @@
+[vs/workbench/contrib/cli/node/cli.contribution]
+aborted = 已中止
+cancel2 = 取消
+cantCreateBinFolder = 未能创建“/usr/local/bin”文件夹。
+cantUninstall = 未能卸载 shell 命令“{0}”。
+install = 将“{0}”命令添加到 PATH
+not available = 此命令不可用
+ok = 好
+shellCommand = Shell 命令
+successFrom = 已将命令“{0}”从 PATH 中移除。
+successIn = 已将命令“{0}”添加到 PATH。
+uninstall = 将“{0}”命令从 PATH 中移除
+warnEscalation = 需要管理员权限以添加命令。
+warnEscalationUninstall = 需要管理员权限以移除命令。
+
+[vs/workbench/contrib/localizations/browser/localizations.contribution]
+activateLanguagePack = 需要重新启动 VS Code 以将用户界面语言更改为 {0}。
+neverAgain = 不再显示
+restart now = 重新启动
+updateLocale = 是否将 VS Code 的界面语言更换为 {0} 并重新启动？
+vscode.extension.contributes.localizations = 向编辑器提供本地化内容
+vscode.extension.contributes.localizations.languageId = 显示字符串翻译的目标语言标识符。
+vscode.extension.contributes.localizations.languageName = 语言的英语名称。
+vscode.extension.contributes.localizations.languageNameLocalized = 提供语言的名称。
+vscode.extension.contributes.localizations.translations = 与语言关联的翻译的列表。
+vscode.extension.contributes.localizations.translations.id = 使用此翻译的 VS Code 或扩展的标识符。VS Code 的标识符为“vscode”，扩展的标识符的格式为“publisherId.extensionName”。
+vscode.extension.contributes.localizations.translations.id.pattern = 翻译 VS Code 或者扩展，标识符分别应为“vscode”或格式为“publisherId.extensionName”。
+vscode.extension.contributes.localizations.translations.path = 包含语言翻译的文件的相对路径。
+yes = 是
+
+[vs/workbench/contrib/localizations/browser/localizationsActions]
+chooseDisplayLanguage = 选择显示语言
+configureLocale = 配置显示语言
+installAdditionalLanguages = 安装其他语言…
+relaunchDisplayLanguageDetail = 点击重新启动按钮来重新启动 {0} 并更改显示语言。
+relaunchDisplayLanguageMessage = 需要重新启动 VS Code 以更改用户界面语言。
+restart = 重新启动(&&R)
+
+[vs/workbench/contrib/localizations/browser/minimalTranslations]
+installAndRestart = 安装并重新启动
+installAndRestartMessage = 安装语言包并将显示语言更改为 {0}。
+searchMarketplace = 搜索商店
+showLanguagePackExtensions = 在商店中搜索语言包并将显示语言更改为 {0}。
+
+[vs/workbench/contrib/preferences/browser/keybindingWidgets]
+defineKeybinding.chordsTo = 加上
+defineKeybinding.existing = 已有 {0} 条命令的快捷键与此相同
+defineKeybinding.initial = 先按所需的组合键，再按 Enter 键。
+defineKeybinding.oneExists = 已有 1 条命令的快捷键与此相同
+
+[vs/workbench/contrib/preferences/browser/keybindingsEditor]
+SearchKeybindings.FullTextSearchPlaceholder = 在此键入搜索快捷键
+SearchKeybindings.KeybindingsSearchPlaceholder = 正在录制按键。按 Esc 键退出
+addKeybindingLabel = 添加快捷键
+addKeybindingLabelWithKey = 添加快捷键 {0}
+addLabel = 添加快捷键
+changeLabel = 更改快捷键
+clearInput = 清除快捷键搜索输入内容
+command = 命令
+commandAriaLabel = 命令为 {0}。
+copyCommandLabel = 拷贝命令
+copyLabel = 拷贝
+editKeybindingLabel = 更改快捷键
+editKeybindingLabelWithKey = 更改快捷键 {0}
+editWhen = 更改 `when` 表达式
+error = 编辑快捷键时发生错误“{0}”。请打开“keybindings.json”文件并检查错误。
+keybinding = 快捷键
+keybindingAriaLabel = 快捷键为 {0}。
+keybindingsLabel = 快捷键
+noKeybinding = 未分配快捷键。
+noWhen = 没有时间上下文。
+recordKeysLabel = 录制按键
+recordKeysLabelWithKeybinding = {0}（{1}）
+recording = 正在录制按键
+removeLabel = 删除快捷键
+resetLabel = 重置快捷键
+show keybindings = 按字母顺序显示 {0} 个快捷键
+show sorted keybindings = 按优先级顺序显示 {0} 个快捷键
+showSameKeybindings = 显示相同的快捷键
+sortByPrecedeneLabel = 按优先级排序
+sortByPrecedeneLabelWithKeybinding = {0}（{1}）
+source = SOURCE
+sourceAriaLabel = 源为 {0}。
+title = {0}（{1}）
+when = 当
+whenAriaLabel = 时间为 {0}。
+whenContextInputAriaLabel = 请键入 `when` 上下文。按 Enter 键确认，按 Esc 键取消。
+
+[vs/workbench/contrib/preferences/browser/keybindingsEditorContribution]
+defineKeybinding.kbLayoutErrorMessage = 在当前键盘布局下未能生成此组合键。
+defineKeybinding.kbLayoutLocalAndUSMessage = 在您的键盘布局上为 **{0}**（美国标准布局上为 **{1}**）。
+defineKeybinding.kbLayoutLocalMessage = 在您的键盘布局上为 **{0}**。
+defineKeybinding.start = 定义快捷键
+
+[vs/workbench/contrib/preferences/browser/preferences.contribution]
+defaultPreferencesEditor = 默认设置编辑器
+filterModifiedLabel = 显示已修改设置
+filterOnlineServicesLabel = 显示在线服务设置
+keybindingsEditor = 快捷键
+keyboardShortcuts = 快捷键
+miOpenKeymap = 快捷键(&&K)
+miOpenOnlineSettings = 在线服务设置(&&S)
+miOpenSettings = 全部设置(&&S)
+miPreferences = 设置(&&P)
+onlineServices = 在线服务设置
+openRemoteSettings = 显示远程设置（{0}）
+openSettingsJson = 显示设置（JSON）
+preferences = 设置
+preferencesCategory = 设置
+settings = 设置
+settingsEditor2 = 设置编辑器
+showDefaultKeybindings = 显示默认快捷键
+showUserKeybindings = 显示用户快捷键
+
+[vs/workbench/contrib/preferences/browser/preferencesActions]
+configureLanguageBasedSettings = 配置语言特定的设置…
+languageDescriptionConfigured = （{0}）
+openDefaultKeybindingsFile = 打开默认快捷键设置（JSON）
+openFolderSettings = 打开文件夹设置
+openGlobalKeybindings = 打开快捷键设置
+openGlobalKeybindingsFile = 打开快捷键设置（JSON）
+openGlobalSettings = 打开用户设置
+openRawDefaultSettings = 打开默认设置（JSON）
+openSettings2 = 打开设置
+openSettingsJson = 打开设置（JSON）
+openWorkspaceSettings = 打开工作区设置
+pickLanguage = 选择语言
+
+[vs/workbench/contrib/preferences/browser/preferencesEditor]
+SearchSettingsWidget.AriaLabel = 搜索设置
+SearchSettingsWidget.Placeholder = 搜索设置
+defaultEditorReadonly = 在右侧编辑器中编辑以覆盖默认值。
+defaultFolderSettings = 默认文件夹设置
+defaultSettings = 默认设置
+defaultUserSettings = 默认用户设置
+defaultWorkspaceSettings = 默认工作区设置
+filterResult = 筛选结果
+nlpResult = 自然语言结果
+noSettingsFound = 没有设置
+oneSettingFound = 找到 1 个设置
+preferencesAriaLabel = 默认首选项。只读文本编辑器。
+settingsFound = 找到 {0} 个设置
+totalSettingsMessage = 总计 {0} 个设置
+
+[vs/workbench/contrib/preferences/browser/preferencesRenderers]
+copyDefaultValue = 拷贝到设置
+editTtile = 编辑
+emptyFolderSettingsHeader = 将文件夹设置放在此处以覆盖工作区设置。
+emptyUserSettingsHeader = 将设置放在此处以覆盖默认设置。
+emptyWorkspaceSettingsHeader = 将设置放在此处以覆盖用户设置。
+replaceDefaultValue = 在设置中替换
+unknown configuration setting = 未知设置
+unsupportedApplicationSetting = 此设置只适用于用户设置。
+unsupportedMachineSetting = 此设置只适用于用户设置。
+unsupportedRemoteMachineSetting = 此设置只适用于远程设置。
+unsupportedWindowSetting = 未能应用此设置。将在直接打开此文件夹时应用。
+
+[vs/workbench/contrib/preferences/browser/preferencesWidgets]
+defaultSettings = 将您的设置放入右侧编辑器以覆盖。
+folderSettings = 文件夹
+noSettingsFound = 没有设置。
+settingsSwitcherBarAriaLabel = 设置转换器
+userSettings = 用户
+userSettingsRemote = 远程
+workspaceSettings = 工作区
+
+[vs/workbench/contrib/preferences/browser/settingsEditor2]
+SearchSettings.AriaLabel = 搜索设置
+clearInput = 清除设置搜索输入
+clearSearchFilters = 清除筛选
+moreThanOneResult = 找到 {0} 个设置
+noResults = 没有设置
+oneResult = 找到 1 个设置
+settingsContextMenuAriaShortcut = 更多操作，请按 {0}。
+settingsNoSaveNeeded = 将在您编辑时自动存储所作的更改。
+
+[vs/workbench/contrib/preferences/browser/settingsLayout]
+appearance = 外观
+application = 应用程序
+breadcrumbs = 面包屑
+comments = 评论
+commonlyUsed = 常用设置
+cursor = 光标
+debug = 调试
+diffEditor = 差异
+editorManagement = 视图
+extensions = 扩展
+features = 功能
+fileExplorer = 资源
+files = 文件
+find = 查找
+font = 字体
+formatting = 格式化
+keyboard = 键盘
+minimap = 小地图
+newWindow = 新建窗口
+problems = 问题
+proxy = 代理服务器
+remote = 远程
+scm = 版本
+screencastMode = 投屏模式
+search = 搜索
+settings = 设置编辑器
+suggestions = 建议
+sync = 同步
+task = 任务
+telemetry = 遥测
+terminal = 终端
+textEditor = 编辑器
+update = 更新
+window = 窗口
+workbench = 工作台
+zenMode = 禅模式
+
+[vs/workbench/contrib/preferences/browser/settingsTree]
+alsoConfiguredIn = 同时修改于
+configuredIn = 修改于
+copySettingAsJSONLabel = 拷贝设置为 JSON 项
+copySettingIdLabel = 拷贝设置标识符
+editInSettingsJson = 在“settings.json”中编辑
+extensions = 扩展
+modified = 已修改
+newExtensionsButtonLabel = 显示匹配的扩展
+resetSettingLabel = 恢复默认设置
+settings.Default = {0}
+settings.Modified = 已修改。
+settingsContextMenuTitle = 更多操作…
+treeAriaLabel = 设置
+validationError = 验证错误。
+
+[vs/workbench/contrib/preferences/browser/settingsTreeModels]
+remote = 远程
+user = 用户
+workspace = 工作区
+
+[vs/workbench/contrib/preferences/browser/settingsWidgets]
+addItem = 添加项目
+addPattern = 添加模式
+cancelButton = 取消
+editExcludeItem = 编辑排除项目
+editExcludeItemInSettingsJson = 在“settings.json”中编辑排除项目
+editItem = 编辑项目
+editItemInSettingsJson = 在“settings.json”中编辑项目
+excludePatternHintLabel = 排除与“{0}”匹配的文件
+excludePatternInputPlaceholder = 排除项的模式…
+excludeSiblingHintLabel = 仅当存在匹配“{1}”的文件时，才排除匹配“{0}”的文件
+excludeSiblingInputPlaceholder = 当符合此模式的项目存在时…
+headerForeground = （预览版设置编辑器）小节标题与活动标题的前景色。
+itemInputPlaceholder = 文本…
+listSiblingHintLabel = 列出与“${1}”同级的项目“{0}”
+listSiblingInputPlaceholder = 同级…
+listValueHintLabel = 列出项目“{0}”
+modifiedItemForeground = （预览版设置编辑器）已修改设置指示器的颜色。
+numberInputBoxBackground = （预览版设置编辑器）设置编辑器数字输入框的背景色。
+numberInputBoxBorder = （预览版设置编辑器）设置编辑器数字输入框的边框颜色。
+numberInputBoxForeground = （预览版设置编辑器）设置编辑器数字输入框的前景色。
+okButton = 确定
+removeExcludeItem = 删除排除项
+removeItem = 删除项目
+settingsCheckboxBackground = （预览版设置编辑器）设置编辑器复选框的背景色。
+settingsCheckboxBorder = （预览版设置编辑器）设置编辑器复选框的边框颜色。
+settingsCheckboxForeground = （预览版设置编辑器）设置编辑器复选框的前景色。
+settingsDropdownBackground = （预览版设置编辑器）设置编辑器下拉列表的背景色。
+settingsDropdownBorder = （预览版设置编辑器）设置编辑器下拉列表的边框颜色。
+settingsDropdownForeground = （预览版设置编辑器）设置编辑器下拉列表的前景色。
+settingsDropdownListBorder = （预览版设置编辑器）设置编辑器下拉列表选项的边框颜色。边框将围绕这些选项，并区分选项与描述。
+textInputBoxBackground = （预览版设置编辑器）设置编辑器文本输入框的背景色。
+textInputBoxBorder = （预览版设置编辑器）设置编辑器文本输入框的边框颜色。
+textInputBoxForeground = （预览版设置编辑器）设置编辑器文本输入框的前景色。
+
+[vs/workbench/contrib/preferences/browser/tocTree]
+groupRowAriaLabel = {0}，组
+
+[vs/workbench/contrib/relauncher/browser/relauncher.contribution]
+relaunchSettingDetail = 点击“重新启动”按钮以重新启动 {0} 并启用该设置。
+relaunchSettingDetailWeb = 点击“重新载入”按钮以重新载入 {0} 并启用该设置。
+relaunchSettingMessage = 更改的设置将在重新启动后生效。
+relaunchSettingMessageWeb = 更改的设置将在重新载入后生效。
+restart = 重新启动(&&R)
+restartWeb = 重新载入
+
+[vs/workbench/contrib/themes/browser/themes.contribution]
+developer = 开发者
+generateColorTheme.label = 使用当前设置生成颜色主题
+installColorThemes = 安装其他颜色主题…
+installIconThemes = 安装其他文件图标主题…
+miSelectColorTheme = 颜色主题(&&C)
+miSelectIconTheme = 文件图标主题(&&I)
+noIconThemeDesc = 禁用文件图标
+noIconThemeLabel = 无
+preferences = 首选项
+selectIconTheme.label = 文件图标主题
+selectTheme.label = 颜色主题
+themes.category.dark = 深色主题
+themes.category.hc = 高对比度主题
+themes.category.light = 浅色主题
+themes.selectIconTheme = 选择文件图标主题
+themes.selectIconTheme.label = 文件图标主题
+themes.selectTheme = 选择颜色主题（按上下箭头键预览）
+
+[vs/workbench/contrib/url/common/trustedDomains]
+trustedDomain.manageTrustedDomain = 管理受信任的域名
+trustedDomain.manageTrustedDomains = 管理受信任的域名
+trustedDomain.trustAllDomains = 信任所有域名（禁用链接保护）
+trustedDomain.trustDomain = 信任“{0}”
+trustedDomain.trustSubDomain = 信任“{0}”及其子域名
+
+[vs/workbench/contrib/url/common/trustedDomainsValidator]
+cancel = 取消
+configureTrustedDomains = 设置受信任的域名
+copy = 拷贝
+open = 打开
+openExternalLinkAt = 是否要 {0} 打开外部网站？\n{1}
+
+[vs/workbench/contrib/url/common/url.contribution]
+developer = 开发者
+openUrl = 打开网址
+
+[vs/workbench/contrib/userData/browser/userData.contribution]
+conflicts detected = 由于冲突而无法同步。请解决它们以继续。
+continue sync = 同步：继续
+resolve = 解决冲突
+resolve conflicts = 解决冲突
+resolveConflicts = 同步：解决冲突
+start sync = 同步：开始
+stop sync = 同步：停止
+syncing = 正在同步用户设置…
+userConfiguration = 用户设置
+userConfiguration.enableSync = 同步用户设置，包括设置、键盘映射、扩展和代码片段。
+
+[vs/workbench/contrib/userDataSync/browser/userDataSync]
+Sign in = 登录
+Sync Started = 同步已启动。
+ask to sign in = 请使用{0}帐户登录，以便跨计算机同步配置
+configure sync title = 同步：配置
+conflicts detected = 由于冲突而无法同步。请解决它们以继续。
+continue sync = 同步：继续
+extensions = 扩展
+global activity sign in = 同步：登录…（1）
+global activity stop sync = 关闭同步
+global activity turn on sync = 打开同步…
+resolve = 解决冲突
+resolve conflicts = 解决冲突
+resolveConflicts = 同步：解决冲突
+resolveConflicts_global = 同步：解决冲突（1）
+select configurations to sync = 选择要同步的内容
+sign in = 登录…
+sign in to account = 登录到 {0}
+sign in to sync = 登录以同步
+sign out = 退出账户
+signing in = 登录…
+signinig in = 同步：登录…
+stop sync = 同步：关闭
+syncing = 正在同步用户设置…
+turn on sync = 同步：打开同步…
+user keybindings = 用户快捷键
+user settings = 用户设置
+
+[vs/workbench/contrib/webview/browser/webview]
+developer = 开发者
+
+[vs/workbench/contrib/webview/browser/webview.contribution]
+webview.editor.label = Webview 编辑器
+
+[vs/workbench/contrib/webview/browser/webviewCommands]
+refreshWebviewLabel = 重新加载 Webview
+
+[vs/workbench/contrib/webview/electron-browser/webviewCommands]
+openToolsLabel = 打开 Webview 开发工具
