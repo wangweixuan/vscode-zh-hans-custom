@@ -3,7 +3,8 @@ import { escapeString } from './utilities'
 export function parseJson(
   content: string
 ): Record<string, Record<string, string>> {
-  const json = JSON.parse(content)
+  // TODO: hack for upstream ill-formatted files
+  const json = JSON.parse(content.replace(/^\uFEFF/, ''))
 
   if (
     typeof json !== 'object' ||

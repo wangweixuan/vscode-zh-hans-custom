@@ -39,6 +39,7 @@
   "vscode.fsharp": ["languages/fsharp.ini"],
   "vscode.git": ["features/git.ini"],
   "vscode.git-ui": ["features/git-ui.ini"],
+  "vscode.github-authentication": ["features/github-authentication.ini"],
   "vscode.go": ["languages/go.ini"],
   "vscode.groovy": ["languages/groovy.ini"],
   "vscode.grunt": ["features/grunt.ini"],

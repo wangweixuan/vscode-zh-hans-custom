@@ -17,12 +17,10 @@ export function relativeDot(from: string, to: string) {
 
 export async function mkdir(dir: string) {
   try {
-    fs.mkdir(dir, { recursive: true })
+    await fs.rmdir(dir, { recursive: true })
   } catch (err) {
-    if (err.code === 'EEXIST') return
-
-    throw err
   }
+  await fs.mkdir(dir, { recursive: true })
 }
 
 export function escapeString(value: string) {
