@@ -14,8 +14,7 @@ export async function lint(catalogPath: string) {
     for (const file of catalog[id]) {
       const sourcePath = join(dirname(catalogPath), file)
 
-      if (linted.includes(sourcePath))
-        continue
+      if (linted.includes(sourcePath)) continue
       linted.push(sourcePath)
       console.log('Linting:', relativeDot('', sourcePath))
 

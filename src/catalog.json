@@ -62,6 +62,7 @@
   "vscode.markdown-basics": ["languages/markdown.ini"],
   "vscode.markdown-language-features": ["features/markdown.ini"],
   "vscode.merge-conflict": ["features/merge-conflict.ini"],
+  "vscode.ms-vscode.js-debug-nightly": ["features/js-debug-nightly.ini"],
   "vscode.ms-vscode.node-debug": ["features/node-debug.ini"],
   "vscode.ms-vscode.node-debug2": ["features/node-debug2.ini"],
   "vscode.npm": ["features/npm.ini"],

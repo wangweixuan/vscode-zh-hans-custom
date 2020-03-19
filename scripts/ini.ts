@@ -36,8 +36,10 @@ export function parseIni(
     if (separatorIndex === -1)
       throw new Error(`Missing equal sign in ${file}:${count}.`)
 
-    const key = line.slice(0, separatorIndex).trimRight()
-    if (key in currentSection) throw new Error(`Duplicate field in ${file}:${count}.`)
+    // TODO: escaping key is due to a ill-formatted key in typescript.ini
+    const key = unescapeString(line.slice(0, separatorIndex).trimRight())
+    if (key in currentSection)
+      throw new Error(`Duplicate field in ${file}:${count}.`)
 
     const value = unescapeString(line.slice(separatorIndex + 1))
 
