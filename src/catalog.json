@@ -96,6 +96,7 @@
   "vscode.typescript-basics": ["languages/typescript.ini"],
   "vscode.typescript-language-features": ["features/typescript.ini"],
   "vscode.vb": ["languages/vb.ini"],
+  "vscode.vscode-account": ["features/account.ini"],
   "vscode.vscode-chrome-debug-core": ["features/chrome-debug-core.ini"],
   "vscode.xml": ["languages/xml.ini"],
   "vscode.yaml": ["languages/yaml.ini"]

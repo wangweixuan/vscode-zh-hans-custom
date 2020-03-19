@@ -340,16 +340,20 @@
             "path": "dist/75.json"
           },
           {
-            "id": "vscode.vscode-chrome-debug-core",
+            "id": "vscode.vscode-account",
             "path": "dist/76.json"
           },
           {
-            "id": "vscode.xml",
+            "id": "vscode.vscode-chrome-debug-core",
             "path": "dist/77.json"
           },
           {
-            "id": "vscode.yaml",
+            "id": "vscode.xml",
             "path": "dist/78.json"
+          },
+          {
+            "id": "vscode.yaml",
+            "path": "dist/79.json"
           }
         ]
       }
