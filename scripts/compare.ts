@@ -14,7 +14,7 @@ export async function compare(
   const oldMappings = await readPackage(oldPackagePath)
   const newMappings = await readPackage(newPackagePath)
 
-  for (const [id, path] of oldMappings) {
+  for (const [id, _path] of oldMappings) {
     if (newMappings.some(([newId]) => id === newId)) continue
 
     console.log('Removed:', id)

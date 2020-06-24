@@ -22,6 +22,7 @@ export async function lint(catalogPath: string) {
       const sections: Record<string, Record<string, string>> = {}
       try {
         parseIni(sections, contents, relativeDot('', sourcePath))
+
       } catch (err) {
         console.log('Parsing failed:', err.message)
 

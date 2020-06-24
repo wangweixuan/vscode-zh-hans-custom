@@ -15,12 +15,14 @@ export function parseIni(
     if (!line.length || line.startsWith(';') || line.startsWith('#')) continue
 
     if (line.startsWith('[')) {
-      if (!line.endsWith(']'))
-        throw new Error(`Missing end bracket in ${file}:${count}.`)
+      if (!line.endsWith(']')) {
+        throw new Error(`Missing end bracket in ${file}:${count + 1}.`)
+      }
 
       const sectionName = line.slice(1, line.length - 1).trim()
-      if (sectionName in sections)
-        throw new Error(`Duplicate section in ${file}:${count}.`)
+      if (sectionName in sections) {
+        throw new Error(`Duplicate section in ${file}:${count + 1}.`)
+      }
 
       Object.defineProperty(sections, sectionName, {
         enumerable: true,
@@ -30,16 +32,20 @@ export function parseIni(
       continue
     }
 
-    if (!currentSection) throw new Error(`Missing section in ${file}:${count}.`)
+    if (!currentSection) {
+      throw new Error(`Missing section in ${file}:${count + 1}.`)
+    }
 
     const separatorIndex = line.indexOf('=')
-    if (separatorIndex === -1)
-      throw new Error(`Missing equal sign in ${file}:${count}.`)
+    if (separatorIndex === -1) {
+      throw new Error(`Missing equal sign in ${file}:${count + 1}.`)
+    }
 
     // TODO: escaping key is due to a ill-formatted key in typescript.ini
     const key = unescapeString(line.slice(0, separatorIndex).trimRight())
-    if (key in currentSection)
-      throw new Error(`Duplicate field in ${file}:${count}.`)
+    if (key in currentSection) {
+      throw new Error(`Duplicate field in ${file}:${count + 1}.`)
+    }
 
     const value = unescapeString(line.slice(separatorIndex + 1))
 

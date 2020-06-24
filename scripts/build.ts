@@ -2,6 +2,7 @@ import { promises as fs } from 'fs'
 import { join, dirname } from 'path'
 import { parseIni } from './ini'
 import { relativeDot, MAPPINGS, HandledError, mkdir } from './utilities'
+import { createHash } from 'crypto'
 
 export async function build(
   catalogPath: string,
@@ -15,9 +16,6 @@ export async function build(
   const mappings: [string, string][] = []
 
   for (const id of Object.keys(catalog)) {
-    const distPath = join(distDir, `${mappings.length}.json`)
-    mappings.push([id, distPath])
-
     console.group('Building:', id)
 
     const sections: Record<string, Record<string, string>> = {}
@@ -30,6 +28,7 @@ export async function build(
       const contents = await fs.readFile(sourcePath, 'utf8')
       try {
         parseIni(sections, contents, relativeDot('', sourcePath))
+
       } catch (err) {
         console.log('Parsing failed:', err.message)
 
@@ -37,14 +36,20 @@ export async function build(
       }
     }
 
+    const contents = JSON.stringify({
+      version: '1.0.0',
+      contents: sections
+    })
+
+    const hash = createHash('sha1')
+      .update(contents)
+      .digest('hex')
+      .substring(0, 7)
+    const distPath = join(distDir, `${hash}.json`)
+    mappings.push([id, distPath])
+
     console.log('Writing:', relativeDot('', distPath))
-    await fs.writeFile(
-      distPath,
-      JSON.stringify({
-        version: '1.0.0',
-        contents: sections
-      })
-    )
+    await fs.writeFile(distPath, contents)
 
     console.groupEnd()
   }

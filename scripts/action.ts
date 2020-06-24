@@ -19,6 +19,7 @@ async function main(args: string[]) {
           join(PROJECT_ROOT, 'dist')
         )
         await updatePackage(join(PROJECT_ROOT, 'package.json'), mappings)
+
       } catch (err) {
         if (!(err instanceof HandledError)) console.error(err.toString())
         process.exit(1)

@@ -16,9 +16,9 @@
     "prepare": "tsc -p scripts && node scripts-dist/action.js build"
   },
   "devDependencies": {
-    "@types/node": "^13.9.1",
-    "prettier": "^1.19.1",
-    "typescript": "^3.8.3"
+    "@types/node": "^14.0.14",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.5"
   },
   "displayName": "Simplified Chinese Language Pack (unofficial)",
   "publisher": "wangweixuan",
@@ -37,327 +37,331 @@
         "translations": [
           {
             "id": "ms-vscode.node-debug",
-            "path": "dist/0.json"
+            "path": "dist/cbda3f0.json"
           },
           {
             "id": "ms-vscode.node-debug2",
-            "path": "dist/1.json"
+            "path": "dist/f3156cb.json"
           },
           {
             "id": "vscode",
-            "path": "dist/2.json"
+            "path": "dist/c5b15ec.json"
           },
           {
             "id": "vscode.bat",
-            "path": "dist/3.json"
+            "path": "dist/a1f6a3e.json"
           },
           {
             "id": "vscode.clojure",
-            "path": "dist/4.json"
+            "path": "dist/3a2e095.json"
           },
           {
             "id": "vscode.coffeescript",
-            "path": "dist/5.json"
+            "path": "dist/dec01ca.json"
           },
           {
             "id": "vscode.configuration-editing",
-            "path": "dist/6.json"
+            "path": "dist/2f94a06.json"
           },
           {
             "id": "vscode.cpp",
-            "path": "dist/7.json"
+            "path": "dist/e75d56a.json"
           },
           {
             "id": "vscode.csharp",
-            "path": "dist/8.json"
+            "path": "dist/aac64f4.json"
           },
           {
             "id": "vscode.css",
-            "path": "dist/9.json"
+            "path": "dist/f2e49b8.json"
           },
           {
             "id": "vscode.css-language-features",
-            "path": "dist/10.json"
+            "path": "dist/1770327.json"
           },
           {
             "id": "vscode.debug-auto-launch",
-            "path": "dist/11.json"
+            "path": "dist/cd2c458.json"
           },
           {
             "id": "vscode.debug-server-ready",
-            "path": "dist/12.json"
+            "path": "dist/ebed400.json"
           },
           {
             "id": "vscode.docker",
-            "path": "dist/13.json"
+            "path": "dist/0ff6454.json"
           },
           {
             "id": "vscode.emmet",
-            "path": "dist/14.json"
+            "path": "dist/aa3a8bb.json"
           },
           {
             "id": "vscode.extension-editing",
-            "path": "dist/15.json"
+            "path": "dist/3641d3e.json"
           },
           {
             "id": "vscode.fsharp",
-            "path": "dist/16.json"
+            "path": "dist/90c87f8.json"
           },
           {
             "id": "vscode.git",
-            "path": "dist/17.json"
+            "path": "dist/08fdcbe.json"
           },
           {
             "id": "vscode.git-ui",
-            "path": "dist/18.json"
+            "path": "dist/6509475.json"
+          },
+          {
+            "id": "vscode.github",
+            "path": "dist/907f1fe.json"
           },
           {
             "id": "vscode.github-authentication",
-            "path": "dist/19.json"
+            "path": "dist/54acb29.json"
           },
           {
             "id": "vscode.go",
-            "path": "dist/20.json"
+            "path": "dist/1cd517a.json"
           },
           {
             "id": "vscode.groovy",
-            "path": "dist/21.json"
+            "path": "dist/88b2aa5.json"
           },
           {
             "id": "vscode.grunt",
-            "path": "dist/22.json"
+            "path": "dist/5fa63db.json"
           },
           {
             "id": "vscode.gulp",
-            "path": "dist/23.json"
+            "path": "dist/3a6dfbc.json"
           },
           {
             "id": "vscode.handlebars",
-            "path": "dist/24.json"
+            "path": "dist/f12837e.json"
           },
           {
             "id": "vscode.hlsl",
-            "path": "dist/25.json"
+            "path": "dist/0c1787a.json"
           },
           {
             "id": "vscode.html",
-            "path": "dist/26.json"
+            "path": "dist/cd9ce29.json"
           },
           {
             "id": "vscode.html-language-features",
-            "path": "dist/27.json"
+            "path": "dist/eb024a9.json"
           },
           {
             "id": "vscode.image-preview",
-            "path": "dist/28.json"
+            "path": "dist/a6b6000.json"
           },
           {
             "id": "vscode.ini",
-            "path": "dist/29.json"
+            "path": "dist/733b08c.json"
           },
           {
             "id": "vscode.jake",
-            "path": "dist/30.json"
+            "path": "dist/b0979e7.json"
           },
           {
             "id": "vscode.java",
-            "path": "dist/31.json"
+            "path": "dist/ee0101e.json"
           },
           {
             "id": "vscode.javascript",
-            "path": "dist/32.json"
+            "path": "dist/ab9e51b.json"
           },
           {
             "id": "vscode.json",
-            "path": "dist/33.json"
+            "path": "dist/ac56c2b.json"
           },
           {
             "id": "vscode.json-language-features",
-            "path": "dist/34.json"
+            "path": "dist/6bda9dd.json"
           },
           {
             "id": "vscode.less",
-            "path": "dist/35.json"
+            "path": "dist/6bc2cff.json"
           },
           {
             "id": "vscode.log",
-            "path": "dist/36.json"
+            "path": "dist/775733d.json"
           },
           {
             "id": "vscode.lua",
-            "path": "dist/37.json"
+            "path": "dist/602ae9b.json"
           },
           {
             "id": "vscode.make",
-            "path": "dist/38.json"
+            "path": "dist/3820eb4.json"
           },
           {
             "id": "vscode.markdown-basics",
-            "path": "dist/39.json"
+            "path": "dist/fa3487f.json"
           },
           {
             "id": "vscode.markdown-language-features",
-            "path": "dist/40.json"
+            "path": "dist/0ba0881.json"
           },
           {
             "id": "vscode.merge-conflict",
-            "path": "dist/41.json"
+            "path": "dist/846e1c1.json"
+          },
+          {
+            "id": "vscode.microsoft-authentication",
+            "path": "dist/c6361a1.json"
           },
           {
             "id": "vscode.ms-vscode.js-debug-nightly",
-            "path": "dist/42.json"
+            "path": "dist/102711e.json"
           },
           {
             "id": "vscode.ms-vscode.node-debug",
-            "path": "dist/43.json"
+            "path": "dist/cbda3f0.json"
           },
           {
             "id": "vscode.ms-vscode.node-debug2",
-            "path": "dist/44.json"
+            "path": "dist/f3156cb.json"
           },
           {
             "id": "vscode.npm",
-            "path": "dist/45.json"
+            "path": "dist/41d6142.json"
           },
           {
             "id": "vscode.objective-c",
-            "path": "dist/46.json"
+            "path": "dist/921d6af.json"
           },
           {
             "id": "vscode.perl",
-            "path": "dist/47.json"
+            "path": "dist/3e2eae2.json"
           },
           {
             "id": "vscode.php",
-            "path": "dist/48.json"
+            "path": "dist/ceb1dc4.json"
           },
           {
             "id": "vscode.php-language-features",
-            "path": "dist/49.json"
+            "path": "dist/b1c7d1c.json"
           },
           {
             "id": "vscode.powershell",
-            "path": "dist/50.json"
+            "path": "dist/091ceaa.json"
           },
           {
             "id": "vscode.pug",
-            "path": "dist/51.json"
+            "path": "dist/4d222e5.json"
           },
           {
             "id": "vscode.python",
-            "path": "dist/52.json"
+            "path": "dist/645d594.json"
           },
           {
             "id": "vscode.r",
-            "path": "dist/53.json"
+            "path": "dist/dc30a9e.json"
           },
           {
             "id": "vscode.razor",
-            "path": "dist/54.json"
+            "path": "dist/c33021e.json"
           },
           {
             "id": "vscode.ruby",
-            "path": "dist/55.json"
+            "path": "dist/a757e41.json"
           },
           {
             "id": "vscode.rust",
-            "path": "dist/56.json"
+            "path": "dist/f1812ca.json"
           },
           {
             "id": "vscode.scss",
-            "path": "dist/57.json"
+            "path": "dist/2b4e877.json"
           },
           {
             "id": "vscode.search-result",
-            "path": "dist/58.json"
+            "path": "dist/92cd992.json"
           },
           {
             "id": "vscode.shaderlab",
-            "path": "dist/59.json"
+            "path": "dist/fa6312c.json"
           },
           {
             "id": "vscode.shellscript",
-            "path": "dist/60.json"
+            "path": "dist/d7b3913.json"
           },
           {
             "id": "vscode.sql",
-            "path": "dist/61.json"
+            "path": "dist/84667f2.json"
           },
           {
             "id": "vscode.swift",
-            "path": "dist/62.json"
+            "path": "dist/2a189f8.json"
           },
           {
             "id": "vscode.theme-abyss",
-            "path": "dist/63.json"
+            "path": "dist/1768088.json"
           },
           {
             "id": "vscode.theme-defaults",
-            "path": "dist/64.json"
+            "path": "dist/544e9c1.json"
           },
           {
             "id": "vscode.theme-kimbie-dark",
-            "path": "dist/65.json"
+            "path": "dist/7a9eba4.json"
           },
           {
             "id": "vscode.theme-monokai",
-            "path": "dist/66.json"
+            "path": "dist/1004f0a.json"
           },
           {
             "id": "vscode.theme-monokai-dimmed",
-            "path": "dist/67.json"
+            "path": "dist/148a1fc.json"
           },
           {
             "id": "vscode.theme-quietlight",
-            "path": "dist/68.json"
+            "path": "dist/b82400a.json"
           },
           {
             "id": "vscode.theme-red",
-            "path": "dist/69.json"
+            "path": "dist/550b378.json"
           },
           {
             "id": "vscode.theme-seti",
-            "path": "dist/70.json"
+            "path": "dist/2432890.json"
           },
           {
             "id": "vscode.theme-solarized-dark",
-            "path": "dist/71.json"
+            "path": "dist/b7a9b05.json"
           },
           {
             "id": "vscode.theme-solarized-light",
-            "path": "dist/72.json"
+            "path": "dist/7860209.json"
           },
           {
             "id": "vscode.theme-tomorrow-night-blue",
-            "path": "dist/73.json"
+            "path": "dist/0d2b881.json"
           },
           {
             "id": "vscode.typescript-basics",
-            "path": "dist/74.json"
+            "path": "dist/c934b0d.json"
           },
           {
             "id": "vscode.typescript-language-features",
-            "path": "dist/75.json"
+            "path": "dist/3457a86.json"
           },
           {
             "id": "vscode.vb",
-            "path": "dist/76.json"
-          },
-          {
-            "id": "vscode.vscode-account",
-            "path": "dist/77.json"
+            "path": "dist/2236b07.json"
           },
           {
             "id": "vscode.vscode-chrome-debug-core",
-            "path": "dist/78.json"
+            "path": "dist/34da081.json"
           },
           {
             "id": "vscode.xml",
-            "path": "dist/79.json"
+            "path": "dist/8d4540e.json"
           },
           {
             "id": "vscode.yaml",
-            "path": "dist/80.json"
+            "path": "dist/1d1c237.json"
           }
         ]
       }

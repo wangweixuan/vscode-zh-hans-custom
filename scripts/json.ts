@@ -10,8 +10,9 @@ export function parseJson(
     json === null ||
     json.version !== '1.0.0' ||
     typeof json.contents !== 'object'
-  )
+  ) {
     throw new TypeError()
+  }
 
   return json.contents
 }
@@ -23,9 +24,9 @@ export function jsonToIni(content: Record<string, Record<string, string>>) {
     result.push(`[${sectionName}]`)
     const section = content[sectionName]
 
-    for (const field of Object.keys(section).sort())
+    for (const field of Object.keys(section).sort()) {
       result.push(`${escapeString(field)} = ${escapeString(section[field])}`)
-    // TODO: escaping key is due to a ill-formatted key in typescript.ini
+    }
 
     result.push('')
   }
