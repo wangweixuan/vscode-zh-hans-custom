@@ -1,6 +1,6 @@
 {
   "name": "vscode-zh-hans-custom",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Unofficial Simplified Chinese Language Pack for VS Code.",
   "keywords": [
     "chinese",
@@ -23,7 +23,7 @@
   "displayName": "Simplified Chinese Language Pack (unofficial)",
   "publisher": "wangweixuan",
   "engines": {
-    "vscode": "^1.41.0"
+    "vscode": "^1.46.0"
   },
   "categories": [
     "Language Packs"
@@ -45,7 +45,7 @@
           },
           {
             "id": "vscode",
-            "path": "dist/c5b15ec.json"
+            "path": "dist/8c23a28.json"
           },
           {
             "id": "vscode.bat",
@@ -97,7 +97,7 @@
           },
           {
             "id": "vscode.extension-editing",
-            "path": "dist/3641d3e.json"
+            "path": "dist/1d5e811.json"
           },
           {
             "id": "vscode.fsharp",
@@ -213,7 +213,7 @@
           },
           {
             "id": "vscode.ms-vscode.js-debug-nightly",
-            "path": "dist/102711e.json"
+            "path": "dist/31a6e98.json"
           },
           {
             "id": "vscode.ms-vscode.node-debug",
