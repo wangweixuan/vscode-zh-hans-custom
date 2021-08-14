@@ -11,19 +11,10 @@
   "author": "Wang Weixuan <wangweixvan@gmail.com>",
   "repository": "https://github.com/wangweixuan/vscode-zh-hans-custom",
   "private": true,
-  "scripts": {
-    "lint": "prettier --write --config scripts/.prettierrc.json scripts/*.ts",
-    "prepare": "tsc -p scripts && node scripts-dist/action.js build"
-  },
-  "devDependencies": {
-    "@types/node": "^14.0.14",
-    "prettier": "^2.0.5",
-    "typescript": "^3.9.5"
-  },
   "displayName": "Simplified Chinese Language Pack (unofficial)",
   "publisher": "wangweixuan",
   "engines": {
-    "vscode": "^1.46.0"
+    "vscode": "^1.59.0"
   },
   "categories": [
     "Language Packs"
@@ -45,7 +36,7 @@
           },
           {
             "id": "vscode",
-            "path": "dist/8c23a28.json"
+            "path": "dist/48862b9.json"
           },
           {
             "id": "vscode.bat",
