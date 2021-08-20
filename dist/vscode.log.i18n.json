@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "displayName": "日志",
+      "description": "为 .log 日志文件提供语法突出显示功能。"
+    }
+  }
+}

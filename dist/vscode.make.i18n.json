@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "displayName": "Make 语言基础",
+      "description": "为 Make 文件提供语法突出显示和括号匹配功能。"
+    }
+  }
+}

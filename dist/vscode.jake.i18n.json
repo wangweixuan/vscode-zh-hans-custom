@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "description": "自动检测并运行 Jake 任务。",
+      "displayName": "Jake 支持",
+      "jake.taskDefinition.type.description": "Jakefile 文件中注册的任务的名称。",
+      "jake.taskDefinition.file.description": "Jakefile 文件的路径。默认为 `Jakefile` 和 `Jakefile.js`。",
+      "config.jake.autoDetect": "自动检测 Jake 任务。Jake 任务检测可能会导致执行任何打开的工作区中的文件。"
+    },
+    "dist/main": {
+      "jakeTaskDetectError": "检测 Jake 任务时发生错误。请查看输出中的详细信息。",
+      "jakeShowOutput": "转到输出",
+      "execFailed": "自动检测文件夹“{0}”中的 Jake 任务失败：{0}"
+    }
+  }
+}

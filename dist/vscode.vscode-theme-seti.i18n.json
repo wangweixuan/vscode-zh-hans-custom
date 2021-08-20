@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "displayName": "Seti 文件图标主题",
+      "description": "基于 Seti UI 制作的文件图标主题。",
+      "themeLabel": "Seti"
+    }
+  }
+}

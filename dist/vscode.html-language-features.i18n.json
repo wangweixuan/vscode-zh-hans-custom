@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "displayName": "HTML 语言功能",
+      "description": "为 HTML 和 Handlebars 文件提供丰富的语言支持。",
+      "html.customData.desc": "指向 JSON 文件的相对文件路径的列表，这些路径采用 [自定义数据格式](https://github.com/Microsoft/vscode-html-languageservice/blob/master/docs/customData.md。\n\nVS Code 在启动时加载自定义数据，从而增强它对您在 JSON 文件中指定的自定义 HTML 标签、属性和属性值的 HTML 支持。\n\n这些文件路径与工作区相对，且只考虑工作区文件夹设置。",
+      "html.format.enable.desc": "启用默认 HTML 格式化程序。",
+      "html.format.wrapLineLength.desc": "每行最大字符数。设置为 `0` 表示禁用。",
+      "html.format.unformatted.desc": "不应该格式化的标签名称列表，以逗号分隔。设置为 `null` 表示默认的所有列于 https://www.w3.org/TR/html5/dom.html#phrasing-content 的标签。",
+      "html.format.contentUnformatted.desc": "不应该格式化其内容的标签名称列表，以逗号分隔。设置为 `null` 表示默认的 `<pre>` 标签。",
+      "html.format.indentInnerHtml.desc": "缩进 `<head>` 和 `<body>` 部分。",
+      "html.format.preserveNewLines.desc": "保留元素前已有的换行符。仅适用于元素前，不适用于标签内或文本。",
+      "html.format.maxPreserveNewLines.desc": "保留在一个区块中的换行符的最大数量。设置为 `null` 表示没有限制。",
+      "html.format.indentHandlebars.desc": "对 `{{#foo}}` 和 `{{/foo}}` 进行格式化与缩进。",
+      "html.format.endWithNewline.desc": "以新行结束。",
+      "html.format.extraLiners.desc": "标签之前将有额外新行的标签名称列表，以逗号分隔。设置为 `null` 表示默认的 `<head>` `<body>` `</html>` 标签。",
+      "html.format.wrapAttributes.desc": "是否将属性换行。",
+      "html.format.wrapAttributes.auto": "仅在超出行长度时将属性换行。",
+      "html.format.wrapAttributes.force": "将第二个及以后的属性换行。",
+      "html.format.wrapAttributes.forcealign": "将第二个及以后的属性换行，并保持对齐。",
+      "html.format.wrapAttributes.forcemultiline": "总是将属性换行。",
+      "html.format.wrapAttributes.alignedmultiple": "当超出折行长度时，将属性垂直对齐。",
+      "html.format.wrapAttributes.preserve": "保留属性的换行。",
+      "html.format.wrapAttributes.preservealigned": "保留属性的换行，同时进行对齐。",
+      "html.format.templating.desc": "接受 Django、ERB、Handlebars 和 PHP 模板化语言标签。",
+      "html.format.unformattedContentDelimiter.desc": "在此字符串之间保留文本内容。",
+      "html.format.wrapAttributesIndentSize.desc": "在 `#html.format.wrapAttributes#` 中使用“强制对齐”和“对齐多个”时的对齐大小。设置为 `null` 表示使用默认缩进大小。",
+      "html.suggest.html5.desc": "在建议中提供 HTML5 新增的标签、属性和值。",
+      "html.trace.server.desc": "跟踪 VS Code 与 HTML 语言服务器之间的通信。",
+      "html.validate.scripts": "对嵌入的脚本进行验证。",
+      "html.validate.styles": "对嵌入的样式进行验证。",
+      "html.autoClosingTags": "自动关闭 HTML 标签。",
+      "html.mirrorCursorOnMatchingTag": "当光标在 HTML 标签上时，自动在匹配的标签处添加镜像光标。",
+      "html.mirrorCursorOnMatchingTagDeprecationMessage": "已弃用：请改用 `#editor.linkedEditing#`。",
+      "html.hover.documentation": "在鼠标悬停时显示标签和属性文档。",
+      "html.hover.references": "在鼠标悬停时显示 MDN 网站链接。"
+    },
+    "client/dist/htmlClient": {
+      "htmlserver.name": "HTML 语言服务器",
+      "folding.start": "折叠区域开始",
+      "folding.end": "折叠区域结束",
+      "folding.html": "简单的 HTML5 模板",
+      "configureButton": "设置",
+      "linkedEditingQuestion": "VS Code 已内置支持自动重命名标签，是否启用？"
+    }
+  }
+}

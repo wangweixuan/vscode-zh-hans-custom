@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "displayName": "JSON 语言功能",
+      "description": "为 JSON 文件提供丰富的语言支持。",
+      "json.schemas.desc": "将当前项目中的 JSON 文件与 schema 关联。",
+      "json.schemas.url.desc": "指向 schema 的 URL 或当前目录中的相对路径。",
+      "json.schemas.fileMatch.desc": "将 JSON 文件解析到 schema 时，用于匹配的一组文件模式。`*` 表示通配符，也可定义以 `!` 开头的排除模式。当至少有一个匹配模式，且最后一个匹配模式不是排除模式时，文件匹配。",
+      "json.schemas.fileMatch.item.desc": "将 JSON 文件解析到 schema 时，用于匹配的文本模式。`*` 表示通配符。",
+      "json.schemas.schema.desc": "给定 URL 的 schema 定义。只需提供该 schema 以避免对 schema URL 的访问。",
+      "json.format.enable.desc": "启用默认 JSON 格式化程序。",
+      "json.tracing.desc": "跟踪 VS Code 与 JSON 语言服务器之间的通信。",
+      "json.colorDecorators.enable.desc": "显示颜色图标。",
+      "json.colorDecorators.enable.deprecationMessage": "已弃用：请改用 `editor.colorDecorators`。",
+      "json.schemaResolutionErrorMessage": "解析 schema 失败。",
+      "json.clickToRetry": "点击重试。",
+      "json.maxItemsComputed.desc": "在大纲中显示的符号和块的最大数量。数量过大可影响性能。",
+      "json.maxItemsExceededInformation.desc": "当大纲中显示的符号和块超过最大数量时显示通知。",
+      "json.enableSchemaDownload.desc": "允许从 http 和 https 位置获取 JSON scheme。"
+    },
+    "client/dist/jsonClient": {
+      "json.resolveError": "JSON：schema 解析错误",
+      "jsonserver.name": "JSON 语言服务器",
+      "untitled.schema": "加载“{0}”失败。",
+      "schemaDownloadDisabled": "无法下载 schema，因为设置“{0}”已关闭。",
+      "ok": "好",
+      "goToSetting": "打开设置",
+      "yes never again": "不再显示",
+      "configureLimit": "使用设置“{0}”调整限制。",
+      "json.schemaResolutionErrorMessage": "解析 schema 失败。点击重试。",
+      "json.schemaResolutionDisabledMessage": "下载 schema 已关闭。点击设置。"
+    }
+  }
+}

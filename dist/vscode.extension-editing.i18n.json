@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "displayName": "扩展开发",
+      "description": "为扩展开发提供代码检查功能。"
+    },
+    "dist/extensionLinter": {
+      "httpsRequired": "图像应使用 https 协议。",
+      "svgsNotValid": "不能使用 SVG 图像。",
+      "embeddedSvgsNotValid": "不能使用内嵌的 SVG 图像。",
+      "dataUrlsNotValid": "不能使用 data URL 图像。",
+      "relativeUrlRequiresHttpsRepository": "使用相对图像路径时，应指定使用 https 协议的仓库（repository 字段）。",
+      "relativeIconUrlRequiresHttpsRepository": "使用相对图标路径时，应指定使用 https 协议的仓库（repository 字段）。",
+      "relativeBadgeUrlRequiresHttpsRepository": "使用相对徽章图像路径时，应指定使用 https 协议的仓库（repository 字段）。"
+    },
+    "dist/packageDocumentHelper": {
+      "languageSpecificEditorSettings": "语言特定的编辑器设置",
+      "languageSpecificEditorSettingsDescription": "为特定语言覆盖编辑器设置。"
+    }
+  }
+}

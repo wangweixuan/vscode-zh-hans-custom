@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "displayName": "Windows 批处理语言基础",
+      "description": "为 Windows 批处理文件提供代码片段、语法突出显示、括号匹配和折叠功能。"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "displayName": "设置编辑",
+      "description": "为设置文件（如设置、启动配置和扩展推荐文件）提供高级智能感知、自动修复等功能。"
+    },
+    "dist/configurationEditingMain": {
+      "workspaceFolder": "VS Code 中打开文件夹的路径。",
+      "workspaceFolderBasename": "VS Code 中打开文件夹的名称，不含斜杠。",
+      "relativeFile": "当前文件的路径，相对于工作区文件夹。",
+      "relativeFileDirname": "当前文件所在文件夹的路径，相对于工作区文件夹。",
+      "file": "当前文件的路径。",
+      "cwd": "任务进程启动时的工作路径。",
+      "lineNumber": "当前文件中光标所在行的行号。",
+      "selectedText": "当前文件中的选中文本。",
+      "fileDirname": "当前文件所在文件夹的路径。",
+      "fileExtname": "当前文件的扩展名。",
+      "fileBasename": "当前文件的基本名称。",
+      "fileBasenameNoExtension": "当前文件不含扩展名的基本名称。",
+      "defaultBuildTask": "默认生成任务的名称。没有默认生成任务时，提示选择一个生成任务。",
+      "pathSeparator": "操作系统在文件路径中用作分隔符的字符。"
+    },
+    "dist/extensionsProposals": {
+      "exampleExtension": "例子"
+    },
+    "dist/settingsDocumentHelper": {
+      "activeEditor": "当前文件的语言。",
+      "activeEditorShort": "当前文件的文件名。",
+      "activeEditorMedium": "当前文件的路径，相对于工作区文件夹。",
+      "activeEditorLong": "当前文件的完整路径。",
+      "activeFolderShort": "当前文件所在文件夹的名称。",
+      "activeFolderMedium": "当前文件所在文件夹的路径，相对于工作区文件夹。",
+      "activeFolderLong": "当前文件所在文件夹的完整路径。",
+      "rootName": "工作区的名称。",
+      "rootPath": "工作区的路径。",
+      "folderName": "包含当前文件的工作区文件夹的名称。",
+      "folderPath": "包含当前文件的工作区文件夹的路径。",
+      "appName": "应用名称。",
+      "remoteName": "远程名称。",
+      "dirty": "当前编辑器是否未保存。",
+      "separator": "条件分隔符 `-`，仅在两侧有文本时显示。",
+      "assocLabelFile": "文件名，包含扩展名。",
+      "assocDescriptionFile": "将文件名 glob 模式映射到指定标识符的语言。",
+      "assocLabelPath": "文件的路径。",
+      "assocDescriptionPath": "将文件路径 glob 模式映射到指定标识符的语言。",
+      "fileLabel": "文件扩展名。",
+      "fileDescription": "匹配具有指定扩展名的文件。",
+      "filesLabel": "多个文件扩展名。",
+      "filesDescription": "匹配具有指定扩展名之一的文件。",
+      "derivedLabel": "同名文件。",
+      "derivedDescription": "匹配具有指定同名文件的文件。同名文件与本文件同名，且具有指定扩展名。",
+      "topFolderLabel": "顶级文件夹名。",
+      "topFolderDescription": "匹配具有指定名称的顶级文件夹。",
+      "topFoldersLabel": "多个顶级文件夹名。",
+      "topFoldersDescription": "匹配具有指定名称之一的顶级文件夹。",
+      "folderLabel": "文件夹名。",
+      "folderDescription": "匹配具有指定名称的文件夹。",
+      "falseDescription": "禁用模式。",
+      "trueDescription": "启用模式。",
+      "siblingsDescription": "匹配具有指定同名文件的文件。同名文件与本文件同名，且具有指定扩展名。",
+      "languageSpecificEditorSettings": "语言特定的编辑器设置",
+      "languageSpecificEditorSettingsDescription": "为特定语言覆盖编辑器设置。"
+    }
+  }
+}

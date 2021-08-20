@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "displayName": "TypeScript 语言基础",
+      "description": "为 TypeScript 文件提供代码片段、语法突出显示、括号匹配和折叠功能。"
+    }
+  }
+}

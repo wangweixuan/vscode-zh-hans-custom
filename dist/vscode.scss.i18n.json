@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "displayName": "SCSS 语言基础",
+      "description": "为 SCSS 文件提供语法突出显示、括号匹配和折叠功能。"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "displayName": "搜索结果",
+      "description": "为编辑器区域中的搜索结果提供语法突出显示和语言功能。"
+    }
+  }
+}

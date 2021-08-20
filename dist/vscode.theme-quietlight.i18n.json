@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "displayName": "Quiet Light 主题",
+      "description": "Quiet Light 浅色主题。",
+      "themeLabel": "Quiet Light"
+    }
+  }
+}

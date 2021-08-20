@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "displayName": "Node 调试自动附加",
+      "description": "当 node-debug 扩展未启用时提供自动附加的辅助程序。",
+      "toggle.auto.attach": "切换开关自动附加"
+    },
+    "dist/extension": {
+      "status.text.auto.attach.disabled": "自动附加：关闭",
+      "status.text.auto.attach.always": "自动附加：开启",
+      "status.text.auto.attach.smart": "自动附加：智能",
+      "status.text.auto.attach.withFlag": "自动附加：按参数",
+      "debug.javascript.autoAttach.disabled.label": "关闭",
+      "debug.javascript.autoAttach.always.label": "开启",
+      "debug.javascript.autoAttach.smart.label": "智能",
+      "debug.javascript.autoAttach.onlyWithFlag.label": "按参数",
+      "debug.javascript.autoAttach.disabled.description": "自动附加已关闭，不显示在状态栏中",
+      "debug.javascript.autoAttach.always.description": "自动附加到终端中打开的所有 Node.js 进程",
+      "debug.javascript.autoAttach.smart.description": "自动附加到不位于 node_modules 文件夹的脚本",
+      "debug.javascript.autoAttach.onlyWithFlag.description": "自动附加到使用 `--inspect` 命令行选项的进程",
+      "scope.workspace": "切换工作区设置中的自动附加",
+      "scope.global": "切换用户设置中的自动附加",
+      "tempDisable.disable": "在此次会话中暂时关闭自动附加",
+      "tempDisable.enable": "开启自动附加",
+      "tempDisable.suffix": "自动附加：关闭",
+      "status.name.auto.attach": "调试自动附加",
+      "status.tooltip.auto.attach": "自动附加到调试模式下的 Node.js 进程"
+    }
+  }
+}

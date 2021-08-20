@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "configuration.suggest.basic": "启用内置的 PHP 语言建议。支持提供 PHP 全局变量和局部变量的建议。",
+      "configuration.validate.enable": "启用内置 PHP 代码检查。",
+      "configuration.validate.executablePath": "PHP 代码检查工具的路径。",
+      "configuration.validate.run": "何时运行 PHP 代码检查工具，可为 `onSave`（保存时）或 `onType`（输入时）。",
+      "configuration.title": "PHP",
+      "commands.categroy.php": "PHP",
+      "command.untrustValidationExecutable": "阻止工作区设置中的 PHP 代码检查工具",
+      "displayName": "PHP 语言功能",
+      "description": "为 PHP 文件提供丰富的语言支持。",
+      "workspaceTrust": "当 `php.validate.executablePath` 设置将在工作区中加载 PHP 版本时，扩展需要工作区信任。"
+    },
+    "dist/features/validationProvider": {
+      "noPhp": "不能验证文件，因为没有发现 PHP 安装。请在设置 `php.validate.executablePath` 中指定 PHP 可执行文件的路径。",
+      "wrongExecutable": "不能验证文件，因为 PHP 安装“{0}”无效。请在设置 `php.validate.executablePath` 中指定 PHP 可执行文件的路径。",
+      "noExecutable": "不能验证文件，因为没有设置 PHP 可执行文件位置。请在设置 `php.validate.executablePath` 中指定 PHP 可执行文件的路径。",
+      "unknownReason": "运行位于“{0}”的 PHP 可执行文件失败。",
+      "goToSetting": "打开设置"
+    }
+  }
+}

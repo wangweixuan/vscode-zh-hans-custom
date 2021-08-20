@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "displayName": "GitHub",
+      "description": "适用于 VS Code 的 GitHub 功能。",
+      "config.gitAuthentication": "执行 Git 操作时自动使用 GitHub 登录。",
+      "welcome.publishFolder": "您还可直接将此文件夹发布到 GitHub 仓库。发布后，您将有权访问由 Git 和 GitHub 提供支持的源代码管理功能。\n[$(github) 发布到 GitHub](command:github.publish)",
+      "welcome.publishWorkspaceFolder": "您还可直接将工作区文件夹发布到 GitHub 仓库。发布后，您将有权访问由 Git 和 GitHub 提供支持的源代码管理功能。\n[$(github) 发布到 GitHub](command:github.publish)"
+    },
+    "dist/publish": {
+      "pick folder": "选择要发布到 GitHub 的文件夹",
+      "ignore": "选择要包含在仓库中的文件。",
+      "publishing_private": "发布到私有 GitHub 仓库",
+      "publishing_public": "发布到公开 GitHub 仓库",
+      "publishing_firstcommit": "创建初始提交",
+      "publishing_uploading": "正在上传文件",
+      "openingithub": "在 GitHub 上打开",
+      "publishing_done": "成功将仓库“{0}”发布到 GitHub。"
+    },
+    "dist/pushErrorHandler": {
+      "create a fork": "创建复刻仓库",
+      "no": "否",
+      "fork": "您没有权限推送到 GitHub 仓库“{0}/{1}”。是否创建复刻仓库以进行推送？",
+      "create fork": "创建 GitHub 复刻仓库",
+      "forking": "正在复刻仓库“{0}/{1}”…",
+      "forking_pushing": "正在推送更改…",
+      "openingithub": "在 GitHub 上打开",
+      "createpr": "创建拉取请求",
+      "forking_done": "成功在 GitHub 上创建复刻仓库“{0}”。",
+      "createghpr": "正在创建 GitHub 拉取请求…",
+      "openpr": "打开拉取请求",
+      "donepr": "成功在 GitHub 上创建拉取请求“{0}/{1}#{2}”。"
+    }
+  }
+}

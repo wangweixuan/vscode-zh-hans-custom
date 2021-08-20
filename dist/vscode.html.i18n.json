@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "displayName": "HTML 语言基础",
+      "description": "为 HTML 文件提供语法突出显示、括号匹配和代码片段功能。"
+    }
+  }
+}

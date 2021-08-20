@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "displayName": "Abyss 主题",
+      "description": "Abyss 深色主题。",
+      "themeLabel": "Abyss"
+    }
+  }
+}

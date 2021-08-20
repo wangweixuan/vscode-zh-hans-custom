@@ -1,0 +1,65 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "displayName": "Markdown 语言功能",
+      "description": "为 Markdown 提供丰富的语言支持。",
+      "markdown.preview.breaks.desc": "在 Markdown 预览中，将文件中的换行显示为换行（`<br>`）。",
+      "markdown.preview.linkify": "在 Markdown 预览中将表示 URL 的文本转换为链接。",
+      "markdown.preview.typographer": "在 Markdown 预览中进行语言上的替换和引号美化。",
+      "markdown.preview.doubleClickToSwitchToEditor.desc": "在 Markdown 预览中双击时切换到编辑器。",
+      "markdown.preview.fontFamily.desc": "在 Markdown 预览中的字体系列。",
+      "markdown.preview.fontSize.desc": "在 Markdown 预览中的字体大小（字号），单位为像素。",
+      "markdown.preview.lineHeight.desc": "在 Markdown 预览中的行高。此数值与字体大小相关。",
+      "markdown.preview.markEditorSelection.desc": "在 Markdown 预览中突出显示编辑器中当前位置。",
+      "markdown.preview.scrollEditorWithPreview.desc": "滚动 Markdown 预览时，同时滚动对应编辑器。",
+      "markdown.preview.scrollPreviewWithEditor.desc": "滚动 Markdown 编辑器时，同时滚动对于预览。",
+      "markdown.preview.title": "打开预览",
+      "markdown.previewSide.title": "在旁边打开预览",
+      "markdown.showLockedPreviewToSide.title": "在旁边打开锁定的预览",
+      "markdown.showSource.title": "显示来源",
+      "markdown.styles.dec": "在 Markdown 预览中使用的 CSS 样式表的 URL 或本地路径列表。相对路径被解释为相对于“资源”面板中打开的文件夹。如果没有任何打开的文件夹，则会被解释为相对于 Markdown 文件的位置。所有的“\\”需写为“\\\\”。",
+      "markdown.showPreviewSecuritySelector.title": "更改预览安全设置",
+      "markdown.trace.desc": "对 Markdown 扩展启用调试日志记录。",
+      "markdown.preview.refresh.title": "刷新预览",
+      "markdown.preview.toggleLock.title": "锁定或解锁预览",
+      "configuration.markdown.preview.openMarkdownLinks.description": "在 Markdown 预览中，如何打开指向其他 Markdown 文件的链接。",
+      "configuration.markdown.preview.openMarkdownLinks.inEditor": "在编辑器中打开链接。",
+      "configuration.markdown.preview.openMarkdownLinks.inPreview": "在 Markdown 预览中打开链接。",
+      "configuration.markdown.links.openLocation.description": "如何打开 Markdown 文件中的链接。",
+      "configuration.markdown.links.openLocation.currentGroup": "在当前编辑器组中打开链接。",
+      "configuration.markdown.links.openLocation.beside": "在当前编辑器旁边打开链接。",
+      "workspaceTrust": "需要用来加载工作区中设置的样式。"
+    },
+    "dist/security": {
+      "strict.title": "严格",
+      "strict.description": "只加载安全的内容。",
+      "insecureLocalContent.title": "允许本地的不安全内容。",
+      "insecureLocalContent.description": "允许加载 localhost 上通过 http 协议的内容。",
+      "insecureContent.title": "允许不安全内容。",
+      "insecureContent.description": "允许加载通过 http 协议的内容。",
+      "disable.title": "禁用",
+      "disable.description": "允许所有内容并允许脚本。不推荐。",
+      "moreInfo.title": "更多信息",
+      "enableSecurityWarning.title": "在工作区中启用预览安全警告",
+      "disableSecurityWarning.title": "在工作区中禁用预览安全警告",
+      "toggleSecurityWarning.description": "不影响内容安全等级",
+      "preview.showPreviewSecuritySelector.title": "选择工作区中 Markdown 预览的安全设置"
+    },
+    "dist/features/documentLinkProvider": {
+      "documentLink.tooltip": "访问链接"
+    },
+    "dist/features/preview": {
+      "onPreviewStyleLoadError": "加载 Markdown 样式失败：{0}",
+      "preview.clickOpenFailed": "无法打开“{0}”",
+      "lockedPreviewTitle": "[预览] {0}",
+      "previewTitle": "预览 {0}"
+    },
+    "dist/features/previewContentProvider": {
+      "preview.securityMessage.text": "此文档中部分内容已禁用",
+      "preview.securityMessage.title": "Markdown 预览中潜在的不安全内容已被禁用。要允许不安全的内容并启用脚本，请修改 Markdown 预览安全设置。",
+      "preview.securityMessage.label": "内容已禁用安全警告",
+      "preview.notFound": "文件“{0}”不存在。"
+    }
+  }
+}

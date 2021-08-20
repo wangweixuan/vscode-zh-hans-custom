@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "displayName": "Markdown 数学公式",
+      "description": "为 Markdown 预览提供数学公式支持。",
+      "config.markdown.math.enabled": "在内置 Markdown 预览中启用数学公式。"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "displayName": "ipynb 支持",
+      "description": "为打开 Jupyter 的 .ipynb 笔记本文件提供基本支持。"
+    }
+  }
+}

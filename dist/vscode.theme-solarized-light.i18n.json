@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "displayName": "Solarized Light 主题",
+      "description": "Solarized Light 浅色主题。",
+      "themeLabel": "Solarized Light"
+    }
+  }
+}

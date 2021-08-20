@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "contents": {
+    "package": {
+      "displayName": "默认主题",
+      "description": "默认的深色、浅色和高对比度主题。",
+      "darkPlusColorThemeLabel": "深色默认",
+      "lightPlusColorThemeLabel": "浅色默认",
+      "darkColorThemeLabel": "深色简易",
+      "lightColorThemeLabel": "浅色简易",
+      "hcColorThemeLabel": "高对比度",
+      "minimalIconThemeLabel": "Minimal"
+    }
+  }
+}
