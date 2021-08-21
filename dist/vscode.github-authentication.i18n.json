@@ -1,18 +1,18 @@
 {
   "version": "1.0.0",
   "contents": {
-    "package": {
-      "displayName": "GitHub 账户",
-      "description": "提供 GitHub 身份验证。"
+    "dist/common/keychain": {
+      "troubleshooting": "问题排除指南",
+      "keychainWriteError": "在钥匙串中保存登录信息失败：{0}"
     },
     "dist/githubServer": {
       "status.git.signIn.name": "GitHub 登录",
       "signingIn": "$(mark-github) 正在登录到 github.com…",
-      "signingInEnterprise": "$(mark-github) 正在登录到 {0}…"
+      "validUri": "请输入 GitHub 登录页面的 URL"
     },
-    "dist/common/keychain": {
-      "troubleshooting": "问题排除指南",
-      "keychainWriteError": "在钥匙串中保存登录信息失败：{0}"
+    "package": {
+      "displayName": "GitHub 账户",
+      "description": "提供 GitHub 身份验证。"
     }
   }
 }

@@ -1,10 +1,6 @@
 {
   "version": "1.0.0",
   "contents": {
-    "package": {
-      "displayName": "设置编辑",
-      "description": "为设置文件（如设置、启动配置和扩展推荐文件）提供高级智能感知、自动修复等功能。"
-    },
     "dist/configurationEditingMain": {
       "workspaceFolder": "VS Code 中打开文件夹的路径。",
       "workspaceFolderBasename": "VS Code 中打开文件夹的名称，不含斜杠。",
@@ -61,6 +57,10 @@
       "siblingsDescription": "匹配具有指定同名文件的文件。同名文件与本文件同名，且具有指定扩展名。",
       "languageSpecificEditorSettings": "语言特定的编辑器设置",
       "languageSpecificEditorSettingsDescription": "为特定语言覆盖编辑器设置。"
+    },
+    "package": {
+      "displayName": "设置编辑",
+      "description": "为设置文件（如设置、启动配置和扩展推荐文件）提供高级智能感知、自动修复等功能。"
     }
   }
 }

@@ -1,6 +1,9 @@
 {
   "version": "1.0.0",
   "contents": {
+    "dist/abbreviationActions": {
+      "wrapWithAbbreviationPrompt": "输入缩写"
+    },
     "package": {
       "description": "适用于 VS Code 的 Emmet 支持",
       "command.wrapWithAbbreviation": "使用缩写包围",
@@ -63,9 +66,6 @@
       "emmetPreferencesOutputReverseAttributes": "在解析代码片段时，反转属性合并方向。",
       "emmetPreferencesOutputSelfClosingStyle": "自结束标记的样式，可为 `html`（`<br>`）、`xml` (`<br/>`)，或 `xhtml` (`<br />`)。",
       "emmetPreferencesCssColorShort": "将类似 `#f` 的颜色值补全为 `#fff`，而不是 `#ffffff`。"
-    },
-    "dist/abbreviationActions": {
-      "wrapWithAbbreviationPrompt": "输入缩写"
     }
   }
 }

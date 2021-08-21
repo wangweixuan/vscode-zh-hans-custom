@@ -1,11 +1,6 @@
 {
   "version": "1.0.0",
   "contents": {
-    "package": {
-      "displayName": "简单浏览器",
-      "description": "非常基本的内置浏览器，可显示 Web 内容。",
-      "configuration.focusLockIndicator.enabled.description": "聚焦于简单浏览器时，显示浮动指示器。"
-    },
     "dist/extension": {
       "simpleBrowser.show.placeholder": "https://example.com",
       "simpleBrowser.show.prompt": "输入要访问的 URL",
@@ -18,6 +13,11 @@
       "control.reload.title": "重新加载",
       "control.openExternal.title": "在浏览器中打开",
       "view.iframe-focused": "焦点锁定"
+    },
+    "package": {
+      "displayName": "简单浏览器",
+      "description": "非常基本的内置浏览器，可显示 Web 内容。",
+      "configuration.focusLockIndicator.enabled.description": "聚焦于简单浏览器时，显示浮动指示器。"
     }
   }
 }

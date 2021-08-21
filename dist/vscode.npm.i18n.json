@@ -1,6 +1,41 @@
 {
   "version": "1.0.0",
   "contents": {
+    "dist/commands": {
+      "noScriptFound": "选中文本没有包含有效的 npm 脚本。"
+    },
+    "dist/features/bowerJSONContribution": {
+      "json.bower.default": "默认 bower.json",
+      "json.bower.error.repoaccess": "到 Bower 仓库的网络请求失败：{0}",
+      "json.bower.latest.version": "最新"
+    },
+    "dist/features/packageJSONContribution": {
+      "json.package.default": "默认 package.json",
+      "json.npm.error.repoaccess": "到 npm 仓库的网络请求失败：{0}",
+      "json.npm.latestversion": "包的最新版本",
+      "json.npm.majorversion": "匹配主要版本（1.x.x）",
+      "json.npm.minorversion": "匹配次要版本（1.2.x）",
+      "json.npm.version.hover": "最新版本 {0}"
+    },
+    "dist/npmScriptLens": {
+      "codelens.debug": "{0} 调试"
+    },
+    "dist/npmView": {
+      "noScripts": "没有脚本。",
+      "autoDetectIsOff": "设置“npm.autoDetect”已关闭。"
+    },
+    "dist/scriptHover": {
+      "runScript": "运行脚本",
+      "runScript.tooltip": "作为任务运行脚本",
+      "debugScript": "调试脚本",
+      "debugScript.tooltip": "在调试器中运行脚本"
+    },
+    "dist/tasks": {
+      "npm.multiplePMWarning": "文件夹“{1}”含有多个 lockfile，已选择包管理器 {0}。",
+      "npm.multiplePMWarning.doNotShow": "不再显示",
+      "npm.multiplePMWarning.learnMore": "详细信息",
+      "npm.parseError": "npm 任务检测失败：文件“{0}”无法解析。"
+    },
     "package": {
       "description": "自动检测并运行 npm 任务，跟踪 npm 依赖项的信息。",
       "displayName": "npm 支持",
@@ -29,41 +64,6 @@
       "command.runSelectedScript": "运行脚本",
       "command.runScriptFromFolder": "运行文件夹中的 npm 脚本…",
       "command.packageManager": "获取当前包管理器"
-    },
-    "dist/commands": {
-      "noScriptFound": "选中文本没有包含有效的 npm 脚本。"
-    },
-    "dist/npmScriptLens": {
-      "codelens.debug": "{0} 调试"
-    },
-    "dist/npmView": {
-      "noScripts": "没有脚本。",
-      "autoDetectIsOff": "设置“npm.autoDetect”已关闭。"
-    },
-    "dist/scriptHover": {
-      "runScript": "运行脚本",
-      "runScript.tooltip": "作为任务运行脚本",
-      "debugScript": "调试脚本",
-      "debugScript.tooltip": "在调试器中运行脚本"
-    },
-    "dist/tasks": {
-      "npm.multiplePMWarning": "文件夹“{1}”含有多个 lockfile，已选择包管理器 {0}。",
-      "npm.multiplePMWarning.doNotShow": "不再显示",
-      "npm.multiplePMWarning.learnMore": "详细信息",
-      "npm.parseError": "npm 任务检测失败：文件“{0}”无法解析。"
-    },
-    "dist/features/bowerJSONContribution": {
-      "json.bower.default": "默认 bower.json",
-      "json.bower.error.repoaccess": "到 Bower 仓库的网络请求失败：{0}",
-      "json.bower.latest.version": "最新"
-    },
-    "dist/features/packageJSONContribution": {
-      "json.package.default": "默认 package.json",
-      "json.npm.error.repoaccess": "到 npm 仓库的网络请求失败：{0}",
-      "json.npm.latestversion": "包的最新版本",
-      "json.npm.majorversion": "匹配主要版本（1.x.x）",
-      "json.npm.minorversion": "匹配次要版本（1.2.x）",
-      "json.npm.version.hover": "最新版本 {0}"
     }
   }
 }

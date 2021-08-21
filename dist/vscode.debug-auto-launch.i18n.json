@@ -1,11 +1,6 @@
 {
   "version": "1.0.0",
   "contents": {
-    "package": {
-      "displayName": "Node 调试自动附加",
-      "description": "当 node-debug 扩展未启用时提供自动附加的辅助程序。",
-      "toggle.auto.attach": "切换开关自动附加"
-    },
     "dist/extension": {
       "status.text.auto.attach.disabled": "自动附加：关闭",
       "status.text.auto.attach.always": "自动附加：开启",
@@ -26,6 +21,11 @@
       "tempDisable.suffix": "自动附加：关闭",
       "status.name.auto.attach": "调试自动附加",
       "status.tooltip.auto.attach": "自动附加到调试模式下的 Node.js 进程"
+    },
+    "package": {
+      "displayName": "Node 调试自动附加",
+      "description": "当 node-debug 扩展未启用时提供自动附加的辅助程序。",
+      "toggle.auto.attach": "切换开关自动附加"
     }
   }
 }

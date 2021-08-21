@@ -1,6 +1,18 @@
 {
   "version": "1.0.0",
   "contents": {
+    "client/dist/jsonClient": {
+      "json.resolveError": "JSON：schema 解析错误",
+      "jsonserver.name": "JSON 语言服务器",
+      "untitled.schema": "加载“{0}”失败。",
+      "schemaDownloadDisabled": "无法下载 schema，因为设置“{0}”已关闭。",
+      "ok": "好",
+      "goToSetting": "打开设置",
+      "yes never again": "不再显示",
+      "configureLimit": "使用设置“{0}”调整限制。",
+      "json.schemaResolutionErrorMessage": "解析 schema 失败。点击重试。",
+      "json.schemaResolutionDisabledMessage": "下载 schema 已关闭。点击设置。"
+    },
     "package": {
       "displayName": "JSON 语言功能",
       "description": "为 JSON 文件提供丰富的语言支持。",
@@ -18,18 +30,6 @@
       "json.maxItemsComputed.desc": "在大纲中显示的符号和块的最大数量。数量过大可影响性能。",
       "json.maxItemsExceededInformation.desc": "当大纲中显示的符号和块超过最大数量时显示通知。",
       "json.enableSchemaDownload.desc": "允许从 http 和 https 位置获取 JSON scheme。"
-    },
-    "client/dist/jsonClient": {
-      "json.resolveError": "JSON：schema 解析错误",
-      "jsonserver.name": "JSON 语言服务器",
-      "untitled.schema": "加载“{0}”失败。",
-      "schemaDownloadDisabled": "无法下载 schema，因为设置“{0}”已关闭。",
-      "ok": "好",
-      "goToSetting": "打开设置",
-      "yes never again": "不再显示",
-      "configureLimit": "使用设置“{0}”调整限制。",
-      "json.schemaResolutionErrorMessage": "解析 schema 失败。点击重试。",
-      "json.schemaResolutionDisabledMessage": "下载 schema 已关闭。点击设置。"
     }
   }
 }

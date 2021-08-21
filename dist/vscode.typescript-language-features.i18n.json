@@ -1,6 +1,160 @@
 {
   "version": "1.0.0",
   "contents": {
+    "dist/languageFeatures/codeLens/baseCodeLensProvider": {
+      "referenceErrorLabel": "分析引用失败"
+    },
+    "dist/languageFeatures/codeLens/implementationsCodeLens": {
+      "oneImplementationLabel": "1 个实现",
+      "manyImplementationLabel": "{0} 个实现"
+    },
+    "dist/languageFeatures/codeLens/referencesCodeLens": {
+      "oneReferenceLabel": "1 个引用",
+      "manyReferenceLabel": "{0} 个引用"
+    },
+    "dist/languageFeatures/completions": {
+      "autoImportLabel": "从“{0}”自动导入",
+      "selectCodeAction": "选择代码操作",
+      "acquiringTypingsLabel": "正在下载类型…",
+      "acquiringTypingsDetail": "正在为智能感知下载类型。"
+    },
+    "dist/languageFeatures/directiveCommentCompletions": {
+      "ts-check": "在 JavaScript 文件中启用基于语义的检查。必须位于文件开头。",
+      "ts-nocheck": "在 JavaScript 文件中禁用基于语义的检查。必须位于文件开头。",
+      "ts-ignore": "忽略下一行的 TypeScript 错误。",
+      "ts-expect-error": "忽略下一行的 TypeScript 错误，同时确保下一行存在错误。"
+    },
+    "dist/languageFeatures/fileReferences": {
+      "error.unsupportedVersion": "查找文件引用失败：要求使用不低于 4.2 版本的 TypeScript。",
+      "error.noResource": "查找文件引用失败：缺少文件。",
+      "error.unsupportedLanguage": "查找文件引用失败：文件类型不支持。",
+      "error.unknownFile": "查找文件引用失败：文件类型未知。",
+      "progress.title": "正在查找文件引用"
+    },
+    "dist/languageFeatures/fixAll": {
+      "autoFix.label": "全部修复",
+      "autoFix.unused.label": "删除未使用的所有代码",
+      "autoFix.missingImports.label": "添加缺少的所有导入"
+    },
+    "dist/languageFeatures/hover": {
+      "loadingPrefix": "（正在加载）"
+    },
+    "dist/languageFeatures/jsDocCompletions": {
+      "typescript.jsDocCompletionItem.documentation": "JSDoc 注释"
+    },
+    "dist/languageFeatures/organizeImports": {
+      "organizeImportsAction.title": "整理导入语句",
+      "sortImportsAction.title": "排序导入语句"
+    },
+    "dist/languageFeatures/quickFix": {
+      "fixAllInFileLabel": "{0}（全部修复）"
+    },
+    "dist/languageFeatures/refactor": {
+      "refactoringFailed": "无法进行重构。",
+      "refactor.documentation.title": "了解关于重构的详细信息",
+      "extractConstant.disabled.title": "提取常量",
+      "extractConstant.disabled.reason": "选中文本不能被提取为常量。",
+      "extractFunction.disabled.title": "提取函数",
+      "extractFunction.disabled.reason": "选中文本不能被提取为函数。"
+    },
+    "dist/languageFeatures/rename": {
+      "fileRenameFail": "重命名文件失败。"
+    },
+    "dist/languageFeatures/updatePathsOnRename": {
+      "renameProgress.title": "正在检查 import 语句更新",
+      "prompt": "是否更新文件“{0}”中的 import 语句？",
+      "promptMoreThanOne": "是否更新以下 {0} 个文件中的 import 语句？",
+      "reject.title": "不更新",
+      "accept.title": "更新",
+      "always.title": "总是自动更新 import 语句。",
+      "never.title": "不自动更新 import 语句。",
+      "moreFile": "…还有 1 个文件",
+      "moreFiles": "…还有 {0} 个文件"
+    },
+    "dist/task/taskProvider": {
+      "badTsConfig": "tasks.json 中的 TypeScript 任务包含“\\\\”。TypeScript 任务中的 tsconfig 路径应使用“/”。",
+      "buildTscLabel": "build - {0}",
+      "buildAndWatchTscLabel": "watch - {0}"
+    },
+    "dist/tsServer/serverProcess.browser": {
+      "channelName": "TypeScript 语言服务器日志"
+    },
+    "dist/tsServer/serverProcess.electron": {
+      "noServerFound": "“{0}”不是有效的 TypeScript 语言服务器安装，已回退到内置的 TypeScript 版本。"
+    },
+    "dist/tsServer/versionManager": {
+      "selectTsVersion": "选择要为 JavaScript 和 TypeScript 语言服务使用的 TypeScript 版本",
+      "useVSCodeVersionOption": "使用 VS Code 内置版本",
+      "useWorkspaceVersionOption": "使用工作区版本",
+      "allow": "允许",
+      "dismiss": "拒绝",
+      "suppress prompt": "不在此工作区中提示",
+      "promptUseWorkspaceTsdk": "此工作区包含一个 TypeScript 安装，是否为 JavaScript 和 TypeScript 语言服务使用工作区的 TypeScript 版本？",
+      "learnMore": "详细信息"
+    },
+    "dist/tsServer/versionProvider": {
+      "couldNotLoadTsVersion": "加载此路径的 TypeScript 失败。"
+    },
+    "dist/tsServer/versionProvider.electron": {
+      "noBundledServerFound": "VS Code 内置的 TypeScript 语言服务器已被删除（如被杀毒软件误删），请重新安装 VS Code。"
+    },
+    "dist/tsServer/versionStatus": {
+      "projectQuickPick.placeholder": "TypeScript 工程信息",
+      "projectQuickPick.version.label": "选择 TypeScript 版本",
+      "projectQuickPick.version.description": "当前版本为 {0}",
+      "projectQuickPick.project.create": "创建 tsconfig 文件",
+      "projectQuickPick.project.create.description": "此文件不属于 tsconfig 或 jsconfig 工程。",
+      "projectQuickPick.version.goProjectConfig": "打开 tsconfig",
+      "projectQuickPick.help": "TypeScript 帮助",
+      "projectInfo.name": "TypeScript：工程信息"
+    },
+    "dist/typescriptServiceClient": {
+      "noServerFound": "“{0}”不是有效的 TypeScript 语言服务器安装，已回退到内置的 TypeScript 版本。",
+      "serverExitedWithError": "TypeScript 语言服务器发生错误：{0}",
+      "typescript.openTsServerLog.loggingNotEnabled": "已关闭 TypeScript 语言服务器日志。请修改 `typescript.tsserver.log` 设置并重新启动语言服务器以开启日志。",
+      "typescript.openTsServerLog.enableAndReloadOption": "开启日志并重新启动语言服务器",
+      "typescript.openTsServerLog.noLogFile": "TypeScript 语言服务器还没有日志。",
+      "openTsServerLog.openFileFailedFailed": "打开 TypeScript 语言服务器日志失败。",
+      "serverDiedReportIssue": "报告问题",
+      "serverDiedAfterStart": "TypeScript 语言服务器在启动后连续 5 次崩溃。不再尝试启动服务器。",
+      "serverDied": "TypeScript 语言服务器在 5 分钟内连续崩溃 5 次。",
+      "serverDiedOnce": "TypeScript 语言服务器崩溃。",
+      "usingOldTsVersion.title": "请升级 TypeScript",
+      "usingOldTsVersion.detail": "工作区使用过时的 TypeScript 版本 {0}。\n\n在报告问题前，请先在工作区中升级到 TypeScript 最新稳定版，检查问题是否已在新版本中修复。",
+      "serverLoading.progress": "正在初始化 JS 和 TS 语言功能"
+    },
+    "dist/utils/api": {
+      "invalidVersion": "无效版本"
+    },
+    "dist/utils/largeProjectStatus": {
+      "statusExclude": "TypeScript：设置排除的文件",
+      "hintExclude": "要在工程中启用 JavaScript 或 TypeScript 语言功能，请排除含有无关文件的文件夹，如“{0}”。",
+      "hintExclude.generic": "要在工程中启用 JavaScript 或 TypeScript 语言功能，请排除含有无关文件的文件夹。",
+      "large.label": "设置排除的文件",
+      "hintExclude.tooltip": "要在工程中启用 JavaScript 或 TypeScript 语言功能，请排除含有无关文件的文件夹。"
+    },
+    "dist/utils/logger": {
+      "channelName": "TypeScript"
+    },
+    "dist/utils/logLevelMonitor": {
+      "typescript.extendedLogging.isEnabled": "已开启 TypeScript 语言服务日日志，这可能影响性能。",
+      "typescript.extendedLogging.disableLogging": "关闭日志",
+      "typescript.extendedLogging.doNotShowAgain": "不再显示"
+    },
+    "dist/utils/tsconfig": {
+      "typescript.configureTsconfigQuickPick": "编辑 tsconfig.json",
+      "typescript.configureJsconfigQuickPick": "编辑 jsconfig.json",
+      "typescript.noTypeScriptProjectConfig": "文件不属于 TypeScript 工程。[了解详细信息]({0})",
+      "typescript.noJavaScriptProjectConfig": "文件不属于 JavaScript 工程。[了解详细信息]({0})",
+      "typescript.projectConfigNoWorkspace": "请在 VS Code 中打开文件夹，以使用 TypeScript 或 JavaScript 工程。",
+      "typescript.projectConfigUnsupportedFile": "不能确定 TypeScript 或 JavaScript 工程：文件类型不支持。",
+      "typescript.projectConfigCouldNotGetInfo": "不能确定 TypeScript 或 JavaScript 工程。"
+    },
+    "dist/utils/typingsStatus": {
+      "installingPackages": "正在为智能感知下载数据…",
+      "typesInstallerInitializationFailed.doNotCheckAgain": "不再显示",
+      "typesInstallerInitializationFailed.title": "为 JavaScript 语言功能下载类型文件失败。请确保 npm 已安装，或提供了 `typescript.npm` 设置。[了解详细信息]({0})"
+    },
     "package": {
       "displayName": "JavaScript 和 TypeScript 语言功能",
       "description": "为 JavaScript 和 TypeScript 文件提供丰富的语言支持。",
@@ -68,7 +222,7 @@
       "configuration.tsserver.useSeparateSyntaxServer": "使用独立的 TypeScript 语言服务器来快速响应仅与语法相关的操作（如折叠和文档符号），以降低这些操作的准备时间。要求工作区使用不低于 3.4.0 版本的 TypeScript。",
       "configuration.tsserver.maxTsServerMemory": "分配给 TypeScript 语言服务器进程的最大内存量，单位为 MB。",
       "configuration.tsserver.experimental.enableProjectDiagnostics": "在项目范围内启用错误报告。",
-      "typescript.locale": "在报告 JavaScript 和 TypeScript 问题时使用的区域设置。设置为 `null`（默认）表示使用 VS Code 的区域设置。",
+      "typescript.locale": "在报告 JavaScript 和 TypeScript 问题时使用的区域设置。默认使用 VS Code 的区域设置。",
       "configuration.implicitProjectConfig.checkJs": "启用 JavaScript 文件的语义检查。jsconfig.json 和 tsconfig.json 文件可以覆盖此设置。",
       "configuration.javascript.checkJs.checkJs.deprecation": "已弃用：请改用 `js/ts.implicitProjectConfig.checkJs`。",
       "configuration.implicitProjectConfig.experimentalDecorators": "在不属于任何工程的 JavaScript 文件中启用 `experimentalDecorators`。jsconfig.json 和 tsconfig.json 文件可以覆盖此设置。",
@@ -80,13 +234,13 @@
       "inlayHints.parameterNames.none": "不显示参数名称提示。",
       "inlayHints.parameterNames.literals": "仅在实参为字面量时显示参数名称提示。",
       "inlayHints.parameterNames.all": "总是显示参数名称提示。",
-      "configuration.inlayHints.parameterNames.enabled": "显示参数名称嵌入提示。",
+      "configuration.inlayHints.parameterNames.enabled": "显示参数名称嵌入提示，例如：\n```typescript\n\nparseInt(/* str: */ '123', /* radix: */ 8)\n \n```\n要求工作区使用不低于 4.4 版本的 TypeScript。",
       "configuration.inlayHints.parameterNames.suppressWhenArgumentMatchesName": "在实参与形参名称相同时，避免显示参数名称嵌入提示。",
-      "configuration.inlayHints.parameterTypes.enabled": "显示参数类型嵌入提示。",
-      "configuration.inlayHints.variableTypes.enabled": "在省略了类型的变量定义处，显示变量类型嵌入提示。",
-      "configuration.inlayHints.propertyDeclarationTypes.enabled": "在省略了类型的属性定义处，显示属性类型嵌入提示。",
-      "configuration.inlayHints.functionLikeReturnTypes.enabled": "在省略了返回类型的函数定义处，显示返回类型嵌入提示。",
-      "configuration.inlayHints.enumMemberValues.enabled": "在省略了值的枚举成员定义处，显示枚举成员值嵌入提示。",
+      "configuration.inlayHints.parameterTypes.enabled": "显示参数类型嵌入提示，例如：\n```typescript\n\nel.addEventListener('click', e /* :MouseEvent */ => ...)\n \n```\n要求工作区使用不低于 4.4 版本的 TypeScript。",
+      "configuration.inlayHints.variableTypes.enabled": "在省略了类型的变量定义处，显示变量类型嵌入提示，例如：\n```typescript\n\nconst foo /* :number */ = Date.now();\n \n```\n要求工作区使用不低于 4.4 版本的 TypeScript。",
+      "configuration.inlayHints.propertyDeclarationTypes.enabled": "在省略了类型的属性定义处，显示属性类型嵌入提示，例如：\n```typescript\n\nclass Foo {\n\tprop /* :number */ = Date.now;\n}\n \n```\n要求工作区使用不低于 4.4 版本的 TypeScript。",
+      "configuration.inlayHints.functionLikeReturnTypes.enabled": "在省略了返回类型的函数定义处，显示返回类型嵌入提示，例如：\n```typescript\n\nfunction foo() /* :number */ {\n\treturn Date.now();\n} \n \n```\n要求工作区使用不低于 4.4 版本的 TypeScript。",
+      "configuration.inlayHints.enumMemberValues.enabled": "在省略了成员值的枚举定义处，显示枚举成员值嵌入提示，例如：\n```typescript\n\nenum MyValue {\n\tA /* = 0 */;\n\tB /* = 1 */;\n}\n \n```\n要求工作区使用不低于 4.4 版本的 TypeScript。",
       "taskDefinition.tsconfig.description": "提供生成任务的 tsconfig 文件的路径。",
       "javascript.suggestionActions.enabled": "启用对 JavaScript 文件建议的诊断。",
       "typescript.suggestionActions.enabled": "启用对 TypesScript 文件建议的诊断。",
@@ -111,7 +265,7 @@
       "typescript.updateImportsOnFileMove.enabled.never": "不重命名路径。",
       "typescript.autoClosingTags": "自动关闭 JSX 标签。",
       "typescript.suggest.enabled": "提供自动完成建议。",
-      "configuration.surveys.enabled": "偶尔出现有关 JavaScript 和 TypeScript 的调查，帮助我们改善 VS Code 对两者的支持。",
+      "configuration.surveys.enabled": "偶尔出现关于 JavaScript 和 TypeScript 的调查，帮助我们改善 VS Code 对两者的支持。",
       "configuration.suggest.completeJSDocs": "提供完成 JSDoc 注释的建议。",
       "configuration.tsserver.watchOptions": "在跟踪文件和目录时使用的监视方法。要求工作区使用不低于 3.8 版本的 TypeScript。",
       "configuration.tsserver.watchOptions.watchFile": "监视单个文件。",
@@ -156,161 +310,12 @@
       "codeActions.refactor.rewrite.property.generateAccessors.title": "生成访问器",
       "codeActions.refactor.rewrite.property.generateAccessors.description": "生成“get”和“set”访问器。",
       "codeActions.source.organizeImports.title": "整理导入语句",
-      "typescript.findAllFileReferences": "查找文件引用"
-    },
-    "dist/typescriptServiceClient": {
-      "noServerFound": "“{0}”不是有效的 TypeScript 语言服务器安装，已回退到内置的 TypeScript 版本。",
-      "serverExitedWithError": "TypeScript 语言服务器发生错误：{0}",
-      "typescript.openTsServerLog.loggingNotEnabled": "已关闭 TypeScript 语言服务器日志。请修改 `typescript.tsserver.log` 设置并重新启动语言服务器以开启日志。",
-      "typescript.openTsServerLog.enableAndReloadOption": "开启日志并重新启动语言服务器",
-      "typescript.openTsServerLog.noLogFile": "TypeScript 语言服务器还没有日志。",
-      "openTsServerLog.openFileFailedFailed": "打开 TypeScript 语言服务器日志失败。",
-      "serverDiedReportIssue": "报告问题",
-      "serverDiedAfterStart": "TypeScript 语言服务器在启动后连续 5 次崩溃。不再尝试启动服务器。",
-      "serverDied": "TypeScript 语言服务器在 5 分钟内连续崩溃 5 次。",
-      "serverDiedOnce": "TypeScript 语言服务器崩溃。",
-      "usingOldTsVersion.title": "请升级 TypeScript",
-      "usingOldTsVersion.detail": "工作区使用过时的 TypeScript 版本 {0}。\n\n在报告问题前，请先在工作区中升级到 TypeScript 最新稳定版，检查问题是否已在新版本中修复。",
-      "serverLoading.progress": "正在初始化 JS 和 TS 语言功能"
-    },
-    "dist/task/taskProvider": {
-      "badTsConfig": "tasks.json 中的 TypeScript 任务包含“\\\\”。TypeScript 任务中的 tsconfig 路径应使用“/”。",
-      "buildTscLabel": "build - {0}",
-      "buildAndWatchTscLabel": "watch - {0}"
-    },
-    "dist/tsServer/serverProcess.browser": {
-      "channelName": "TypeScript 语言服务器日志"
-    },
-    "dist/tsServer/serverProcess.electron": {
-      "noServerFound": "“{0}”不是有效的 TypeScript 语言服务器安装，已回退到内置的 TypeScript 版本。"
-    },
-    "dist/tsServer/versionManager": {
-      "selectTsVersion": "选择要为 JavaScript 和 TypeScript 语言服务使用的 TypeScript 版本",
-      "useVSCodeVersionOption": "使用 VS Code 内置版本",
-      "useWorkspaceVersionOption": "使用工作区版本",
-      "allow": "允许",
-      "dismiss": "拒绝",
-      "suppress prompt": "不在此工作区中提示",
-      "promptUseWorkspaceTsdk": "此工作区包含一个 TypeScript 安装，是否为 JavaScript 和 TypeScript 语言服务使用工作区的 TypeScript 版本？",
-      "learnMore": "详细信息"
-    },
-    "dist/tsServer/versionProvider.electron": {
-      "noBundledServerFound": "VS Code 内置的 TypeScript 语言服务器已被删除（如被杀毒软件误删），请重新安装 VS Code。"
-    },
-    "dist/tsServer/versionProvider": {
-      "couldNotLoadTsVersion": "加载此路径的 TypeScript 失败。"
-    },
-    "dist/tsServer/versionStatus": {
-      "projectQuickPick.placeholder": "TypeScript 工程信息",
-      "projectQuickPick.version.label": "选择 TypeScript 版本",
-      "projectQuickPick.version.description": "当前版本为 {0}",
-      "projectQuickPick.project.create": "创建 tsconfig 文件",
-      "projectQuickPick.project.create.description": "此文件不属于 tsconfig 或 jsconfig 工程。",
-      "projectQuickPick.version.goProjectConfig": "打开 tsconfig",
-      "projectQuickPick.help": "TypeScript 帮助",
-      "projectInfo.name": "TypeScript：工程信息"
-    },
-    "dist/languageFeatures/completions": {
-      "autoImportLabel": "从“{0}”自动导入",
-      "selectCodeAction": "选择代码操作",
-      "acquiringTypingsLabel": "正在下载类型…",
-      "acquiringTypingsDetail": "正在为智能感知下载类型。"
-    },
-    "dist/languageFeatures/directiveCommentCompletions": {
-      "ts-check": "在 JavaScript 文件中启用基于语义的检查。必须位于文件开头。",
-      "ts-nocheck": "在 JavaScript 文件中禁用基于语义的检查。必须位于文件开头。",
-      "ts-ignore": "忽略下一行的 TypeScript 错误。",
-      "ts-expect-error": "忽略下一行的 TypeScript 错误，同时确保下一行存在错误。"
-    },
-    "dist/languageFeatures/fileReferences": {
-      "error.unsupportedVersion": "查找文件引用失败：要求使用不低于 4.2 版本的 TypeScript。",
-      "error.noResource": "查找文件引用失败：缺少文件。",
-      "error.unsupportedLanguage": "查找文件引用失败：文件类型不支持。",
-      "error.unknownFile": "查找文件引用失败：文件类型未知。",
-      "progress.title": "正在查找文件引用"
-    },
-    "dist/languageFeatures/fixAll": {
-      "autoFix.label": "全部修复",
-      "autoFix.unused.label": "删除未使用的所有代码",
-      "autoFix.missingImports.label": "添加缺少的所有导入"
-    },
-    "dist/languageFeatures/hover": {
-      "loadingPrefix": "（正在加载）"
-    },
-    "dist/languageFeatures/jsDocCompletions": {
-      "typescript.jsDocCompletionItem.documentation": "JSDoc 注释"
-    },
-    "dist/languageFeatures/organizeImports": {
-      "organizeImportsAction.title": "整理导入语句",
-      "sortImportsAction.title": "排序导入语句"
-    },
-    "dist/languageFeatures/quickFix": {
-      "fixAllInFileLabel": "{0}（全部修复）"
-    },
-    "dist/languageFeatures/refactor": {
-      "refactoringFailed": "无法进行重构。",
-      "refactor.documentation.title": "了解更多",
-      "extractConstant.disabled.title": "提取常量",
-      "extractConstant.disabled.reason": "选中文本不能被提取为常量。",
-      "extractFunction.disabled.title": "提取函数",
-      "extractFunction.disabled.reason": "选中文本不能被提取为函数。"
-    },
-    "dist/languageFeatures/rename": {
-      "fileRenameFail": "重命名文件失败。"
-    },
-    "dist/languageFeatures/updatePathsOnRename": {
-      "renameProgress.title": "正在检查 import 语句更新",
-      "prompt": "是否更新文件“{0}”中的 import 语句？",
-      "promptMoreThanOne": "是否更新以下 {0} 个文件中的 import 语句？",
-      "reject.title": "不更新",
-      "accept.title": "更新",
-      "always.title": "总是自动更新 import 语句。",
-      "never.title": "不自动更新 import 语句。",
-      "moreFile": "…还有 1 个文件",
-      "moreFiles": "…还有 {0} 个文件"
-    },
-    "dist/utils/api": {
-      "invalidVersion": "无效版本"
-    },
-    "dist/utils/largeProjectStatus": {
-      "statusExclude": "TypeScript：设置排除的文件",
-      "hintExclude": "要在工程中启用 JavaScript 或 TypeScript 语言功能，请排除含有无关文件的文件夹，如“{0}”。",
-      "hintExclude.generic": "要在工程中启用 JavaScript 或 TypeScript 语言功能，请排除含有无关文件的文件夹。",
-      "large.label": "设置排除的文件",
-      "hintExclude.tooltip": "要在工程中启用 JavaScript 或 TypeScript 语言功能，请排除含有无关文件的文件夹。"
-    },
-    "dist/utils/logLevelMonitor": {
-      "typescript.extendedLogging.isEnabled": "已开启 TypeScript 语言服务日日志，这可能影响性能。",
-      "typescript.extendedLogging.disableLogging": "关闭日志",
-      "typescript.extendedLogging.doNotShowAgain": "不再显示"
-    },
-    "dist/utils/logger": {
-      "channelName": "TypeScript"
-    },
-    "dist/utils/tsconfig": {
-      "typescript.configureTsconfigQuickPick": "编辑 tsconfig.json",
-      "typescript.configureJsconfigQuickPick": "编辑 jsconfig.json",
-      "typescript.noTypeScriptProjectConfig": "文件不属于 TypeScript 工程。[了解详细信息]({0})",
-      "typescript.noJavaScriptProjectConfig": "文件不属于 JavaScript 工程。[了解详细信息]({0})",
-      "typescript.projectConfigNoWorkspace": "请在 VS Code 中打开文件夹，以使用 TypeScript 或 JavaScript 工程。",
-      "typescript.projectConfigUnsupportedFile": "不能确定 TypeScript 或 JavaScript 工程：文件类型不支持。",
-      "typescript.projectConfigCouldNotGetInfo": "不能确定 TypeScript 或 JavaScript 工程。"
-    },
-    "dist/utils/typingsStatus": {
-      "installingPackages": "正在为智能感知下载数据…",
-      "typesInstallerInitializationFailed.doNotCheckAgain": "不再显示",
-      "typesInstallerInitializationFailed.title": "为 JavaScript 语言功能下载类型文件失败。请确保 npm 已安装，或提供了 `typescript.npm` 设置。[了解详细信息]({0})"
-    },
-    "dist/languageFeatures/codeLens/baseCodeLensProvider": {
-      "referenceErrorLabel": "分析引用失败"
-    },
-    "dist/languageFeatures/codeLens/implementationsCodeLens": {
-      "oneImplementationLabel": "1 个实现",
-      "manyImplementationLabel": "{0} 个实现"
-    },
-    "dist/languageFeatures/codeLens/referencesCodeLens": {
-      "oneReferenceLabel": "1 个引用",
-      "manyReferenceLabel": "{0} 个引用"
+      "typescript.findAllFileReferences": "查找文件引用",
+      "configuration.tsserver.useSeparateSyntaxServer.deprecation": "已弃用：请改用 `typescript.tsserver.useSyntaxServer`。",
+      "configuration.tsserver.useSyntaxServer": "启动专用 TypeScript 语言服务器来快速响应仅与语法相关的操作（如代码折叠），以降低这些操作的准备时间。",
+      "configuration.tsserver.useSyntaxServer.always": "使用轻量级的语法专用服务器，处理所有智能感知操作。该服务器只能为打开的文件提供智能感知。",
+      "configuration.tsserver.useSyntaxServer.never": "不使用语法专用服务器。用一个服务器处理所有智能感知操作。",
+      "configuration.tsserver.useSyntaxServer.auto": "同时启动完整语言服务器和语法专用服务器。语法专用服务器可以加快语法相关的操作，在工程加载时提供智能感知。"
     }
   }
 }

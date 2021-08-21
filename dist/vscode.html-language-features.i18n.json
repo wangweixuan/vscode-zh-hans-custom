@@ -1,6 +1,14 @@
 {
   "version": "1.0.0",
   "contents": {
+    "client/dist/htmlClient": {
+      "htmlserver.name": "HTML 语言服务器",
+      "folding.start": "折叠区域开始",
+      "folding.end": "折叠区域结束",
+      "folding.html": "简单的 HTML5 模板",
+      "configureButton": "设置",
+      "linkedEditingQuestion": "VS Code 已内置支持自动重命名标签，是否启用？"
+    },
     "package": {
       "displayName": "HTML 语言功能",
       "description": "为 HTML 和 Handlebars 文件提供丰富的语言支持。",
@@ -35,14 +43,6 @@
       "html.mirrorCursorOnMatchingTagDeprecationMessage": "已弃用：请改用 `#editor.linkedEditing#`。",
       "html.hover.documentation": "在鼠标悬停时显示标签和属性文档。",
       "html.hover.references": "在鼠标悬停时显示 MDN 网站链接。"
-    },
-    "client/dist/htmlClient": {
-      "htmlserver.name": "HTML 语言服务器",
-      "folding.start": "折叠区域开始",
-      "folding.end": "折叠区域结束",
-      "folding.html": "简单的 HTML5 模板",
-      "configureButton": "设置",
-      "linkedEditingQuestion": "VS Code 已内置支持自动重命名标签，是否启用？"
     }
   }
 }

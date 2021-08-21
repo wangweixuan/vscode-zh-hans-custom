@@ -1,13 +1,6 @@
 {
   "version": "1.0.0",
   "contents": {
-    "package": {
-      "displayName": "图像预览",
-      "description": "在 VS Code 中预览图像。",
-      "customEditors.displayName": "图像预览",
-      "command.zoomIn": "放大",
-      "command.zoomOut": "缩小"
-    },
     "dist/binarySizeStatusBarEntry": {
       "sizeB": "{0} B",
       "sizeKB": "{0} KB",
@@ -27,6 +20,13 @@
       "zoomStatusBar.name": "图像缩放",
       "zoomStatusBar.placeholder": "选中缩放大小",
       "zoomStatusBar.wholeImageLabel": "完整图片"
+    },
+    "package": {
+      "displayName": "图像预览",
+      "description": "在 VS Code 中预览图像。",
+      "customEditors.displayName": "图像预览",
+      "command.zoomIn": "放大",
+      "command.zoomOut": "缩小"
     }
   }
 }
