@@ -1,4 +1,4 @@
-# VS Code 非官方简体中文语言包
+# VS Code 简体中文语言包
 
 [![Marketplace Version](https://img.shields.io/vscode-marketplace/v/wangweixuan.vscode-zh-hans-custom.svg)](https://marketplace.visualstudio.com/items?itemName=wangweixuan.vscode-zh-hans-custom)
 
@@ -7,13 +7,11 @@
 ## 安装方法
 
 1. 安装本扩展。
-2. 重启 VS Code。
-3. 按下 `Ctrl+Shift+P` 打开命令栏，选择“**Configure Display Language**”命令。
-4. 在弹出菜单中选择 `zh-hans`。（如果没有该选项，请确认是否完成了第 2 步。）
-5. 再次重启 VS Code。
+2. 按下 `Ctrl+Shift+P` 打开命令栏，选择“**Configure Display Language**”命令。
+3. 在弹出菜单中选择 `zh-hans`。
 
 ## 许可证
 
 本扩展以 MIT 许可证发行。
 
-本扩展是基于[官方简体中文语言包](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans)开发的。
+本扩展是基于 [官方简体中文语言包](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans) 开发的。
