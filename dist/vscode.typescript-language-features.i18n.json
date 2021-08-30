@@ -238,7 +238,7 @@
       "configuration.inlayHints.parameterNames.suppressWhenArgumentMatchesName": "在实参与形参名称相同时，避免显示参数名称嵌入提示。",
       "configuration.inlayHints.parameterTypes.enabled": "显示参数类型嵌入提示，例如：\n```typescript\n\nel.addEventListener('click', e /* :MouseEvent */ => ...)\n \n```\n要求工作区使用不低于 4.4 版本的 TypeScript。",
       "configuration.inlayHints.variableTypes.enabled": "在省略了类型的变量定义处，显示变量类型嵌入提示，例如：\n```typescript\n\nconst foo /* :number */ = Date.now();\n \n```\n要求工作区使用不低于 4.4 版本的 TypeScript。",
-      "configuration.inlayHints.propertyDeclarationTypes.enabled": "在省略了类型的属性定义处，显示属性类型嵌入提示，例如：\n```typescript\n\nclass Foo {\n\tprop /* :number */ = Date.now;\n}\n \n```\n要求工作区使用不低于 4.4 版本的 TypeScript。",
+      "configuration.inlayHints.propertyDeclarationTypes.enabled": "在省略了类型的属性定义处，显示属性类型嵌入提示，例如：\n```typescript\n\nclass Foo {\n\tprop /* :number */ = Date.now();\n}\n \n```\n要求工作区使用不低于 4.4 版本的 TypeScript。",
       "configuration.inlayHints.functionLikeReturnTypes.enabled": "在省略了返回类型的函数定义处，显示返回类型嵌入提示，例如：\n```typescript\n\nfunction foo() /* :number */ {\n\treturn Date.now();\n} \n \n```\n要求工作区使用不低于 4.4 版本的 TypeScript。",
       "configuration.inlayHints.enumMemberValues.enabled": "在省略了成员值的枚举定义处，显示枚举成员值嵌入提示，例如：\n```typescript\n\nenum MyValue {\n\tA /* = 0 */;\n\tB /* = 1 */;\n}\n \n```\n要求工作区使用不低于 4.4 版本的 TypeScript。",
       "taskDefinition.tsconfig.description": "提供生成任务的 tsconfig 文件的路径。",
