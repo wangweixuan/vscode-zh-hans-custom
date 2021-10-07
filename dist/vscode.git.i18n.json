@@ -240,6 +240,9 @@
       "neveragain": "不再显示",
       "add known": "是否将文件夹“{0}”添加到 .gitignore？",
       "yes": "添加",
+      "scm button sync title": "同步更改 $(sync){0}{1}",
+      "scm button publish title": "$(cloud-upload) 发布更改",
+      "scm button publish tooltip": "发布更改",
       "sync changes": "同步更改",
       "pull n": "从“{1}/{2}”拉取 {0} 个更改",
       "push n": "推送 {0} 个更改到“{1}/{2}”",
@@ -478,7 +481,11 @@
       "view.workbench.scm.workspace": "当前打开的工作区中没有任何包含 Git 仓库的文件夹。可初始化某文件夹上的一个仓库，该仓库将实现 Git 提供支持的源代码管理功能。\n[初始化仓库](command:git.init)\n[阅读文档](https://aka.ms/vscode-scm) 以详细了解在 VS Code 中使用 Git 和源代码管理。",
       "view.workbench.scm.emptyWorkspace": "当前打开的工作区没有任何包含 Git 仓库的文件夹。\n[将文件夹添加到工作区](command:workbench.action.addRootFolder)\n[阅读文档](https://aka.ms/vscode-scm) 以详细了解在 VS Code 中使用 Git 和源代码管理。",
       "view.workbench.cloneRepository": "可以在本地克隆仓库。\n[克隆仓库](command:git.clone)",
-      "view.workbench.learnMore": "[阅读文档](https://aka.ms/vscode-scm) 以详细了解在 VS Code 中使用 Git 和源代码管理。"
+      "view.workbench.learnMore": "[阅读文档](https://aka.ms/vscode-scm) 以详细了解在 VS Code 中使用 Git 和源代码管理。",
+      "config.showUnpublishedCommitsButton": "在有未上传的提交时，显示“同步”或“发布”命令的操作按钮。",
+      "config.showUnpublishedCommitsButton.always": "在有未上传的提交时，总是显示操作按钮。",
+      "config.showUnpublishedCommitsButton.whenEmpty": "在有未上传的提交，而无其他更改时，显示操作按钮。",
+      "config.showUnpublishedCommitsButton.never": "不显示操作按钮。"
     }
   }
 }

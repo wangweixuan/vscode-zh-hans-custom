@@ -98,16 +98,6 @@
     "dist/tsServer/versionProvider.electron": {
       "noBundledServerFound": "VS Code 内置的 TypeScript 语言服务器已被删除（如被杀毒软件误删），请重新安装 VS Code。"
     },
-    "dist/tsServer/versionStatus": {
-      "projectQuickPick.placeholder": "TypeScript 工程信息",
-      "projectQuickPick.version.label": "选择 TypeScript 版本",
-      "projectQuickPick.version.description": "当前版本为 {0}",
-      "projectQuickPick.project.create": "创建 tsconfig 文件",
-      "projectQuickPick.project.create.description": "此文件不属于 tsconfig 或 jsconfig 工程。",
-      "projectQuickPick.version.goProjectConfig": "打开 tsconfig",
-      "projectQuickPick.help": "TypeScript 帮助",
-      "projectInfo.name": "TypeScript：工程信息"
-    },
     "dist/typescriptServiceClient": {
       "noServerFound": "“{0}”不是有效的 TypeScript 语言服务器安装，已回退到内置的 TypeScript 版本。",
       "serverExitedWithError": "TypeScript 语言服务器发生错误：{0}",
@@ -122,6 +112,21 @@
       "usingOldTsVersion.title": "请升级 TypeScript",
       "usingOldTsVersion.detail": "工作区使用过时的 TypeScript 版本 {0}。\n\n在报告问题前，请先在工作区中升级到 TypeScript 最新稳定版，检查问题是否已在新版本中修复。",
       "serverLoading.progress": "正在初始化 JS 和 TS 语言功能"
+    },
+    "dist/ui/capabilitiesStatus": {
+      "capabilitiesStatus.name": "智能感知状态",
+      "capabilitiesStatus.detail.syntaxOnly": "限于单个文件的智能感知"
+    },
+    "dist/ui/projectStatus": {
+      "statusItem.name": "tsconfig 设置",
+      "item.noTsConfig.detail": "无",
+      "create.command": "创建 tsconfig",
+      "item.command": "打开 tsconfig 文件"
+    },
+    "dist/ui/versionStatus": {
+      "versionStatus.name": "TypeScript 版本",
+      "versionStatus.detail": "TypeScript 版本",
+      "versionStatus.command": "选择版本"
     },
     "dist/utils/api": {
       "invalidVersion": "无效版本"
