@@ -226,6 +226,7 @@
       "changes": "更改",
       "untracked changes": "未跟踪的更改",
       "push success": "成功推送。",
+      "tooManyChangesWarning": "更改过多。以下只显示前 {0} 个更改。",
       "commit in rebase": "不能在变基中修改提交消息。请完成变基，然后使用交互式变基。",
       "commitMessageWhitespacesOnlyWarning": "当前提交消息只包含空白字符",
       "commitMessageCountdown": "当前行剩余 {0} 字符",
@@ -240,6 +241,8 @@
       "neveragain": "不再显示",
       "add known": "是否将文件夹“{0}”添加到 .gitignore？",
       "yes": "添加",
+      "no": "不",
+      "ok": "好",
       "scm button sync title": "同步更改 $(sync){0}{1}",
       "scm button publish title": "$(cloud-upload) 发布更改",
       "scm button publish tooltip": "发布更改",
@@ -485,7 +488,8 @@
       "config.showUnpublishedCommitsButton": "在有未上传的提交时，显示“同步”或“发布”命令的操作按钮。",
       "config.showUnpublishedCommitsButton.always": "在有未上传的提交时，总是显示操作按钮。",
       "config.showUnpublishedCommitsButton.whenEmpty": "在有未上传的提交，而无其他更改时，显示操作按钮。",
-      "config.showUnpublishedCommitsButton.never": "不显示操作按钮。"
+      "config.showUnpublishedCommitsButton.never": "不显示操作按钮。",
+      "config.statusLimit": "从 Git 状态命令输出中读取的更改的最大数量。设置为 `0` 表示没有限制。"
     }
   }
 }

@@ -478,7 +478,7 @@
       "autoSurround": "选中文本并输入引号或括号时，自动在选中文本两侧添加引号或括号。",
       "stickyTabStops": "在使用空格缩进时，模拟制表符的选择行为。选中文本将以一个制表符为单位。",
       "codeLens": "在编辑器中显示代码透镜。",
-      "codeLensFontFamily": "代码透镜的字体系列。设置为空表示使用 `#editor.fontFamily#` 的值。",
+      "codeLensFontFamily": "代码透镜的字体系列。",
       "codeLensFontSize": "代码透镜的字体大小（字号）。设置为 `0` 表示使用 `#editor.fontSize#` 值的 0.9 倍。",
       "colorDecorators": "在编辑器中显示行内颜色框和颜色选取器。",
       "columnSelection": "使用鼠标和按键选择时，进行列选择。",
@@ -504,7 +504,6 @@
       "formatOnPaste": "自动格式化粘贴的内容。需要格式化程序支持部分范围的格式化。",
       "formatOnType": "输入完一行后自动格式化该行。",
       "glyphMargin": "显示边距中竖排的图标区域。图标区域常用于调试（如添加断点）。",
-      "glyphMarginRightPadding": "图标区域与编辑器内容之间的间距大小。",
       "hideCursorInOverviewRuler": "不在概览标尺中显示光标。",
       "letterSpacing": "字距，单位为像素。",
       "linkedEditing": "启用关联编辑。关联的文本，如 HTML 中的标签，会在编辑时同步更新。",
@@ -1394,6 +1393,11 @@
       "multipleValues": "多次提供的选项 \"{0}\"，已使用值 \"{1}\"。",
       "gotoValidation": "\"--goto\" 模式中的参数格式应为 \"FILE(:LINE(:CHARACTER))\"。"
     },
+    "vs/platform/environment/node/shellEnv": {
+      "resolveShellEnvTimeout": "分析 shell 环境超时。请检查 shell 设置。",
+      "resolveShellEnvError": "分析 shell 环境失败：{0}",
+      "resolveShellEnvExitError": "进程异常退出：代码 {0}，信号 {1}"
+    },
     "vs/platform/extensionManagement/common/abstractExtensionManagementService": {
       "MarketPlaceDisabled": "扩展商店未启用",
       "incompatible platform": "扩展“{0}”在 {1} {2} 中不可用。",
@@ -1494,8 +1498,8 @@
     "vs/platform/files/common/fileService": {
       "invalidPath": "无法解析位于相对文件路径“{0}”的文件系统提供程序。",
       "noProviderFound": "未找到资源“{0}”的文件系统提供程序。",
-      "fileNotFoundError": "无法解析不存在的文件“{0}”",
-      "fileExists": "不能创建文件“{0}”，因为它已存在且未允许覆盖",
+      "fileNotFoundError": "文件“{0}”不存在。",
+      "fileExists": "不能创建文件“{0}”，因为它已存在且未允许覆盖。",
       "err.write": "无法写入文件“{0}”：{1}",
       "writeFailedUnlockUnsupported": "不能解锁文件“{0}”，因为文件系统提供程序不支持。",
       "fileIsDirectoryWriteError": "不能写入文件“{0}”，因为该项目为文件夹。",
@@ -2888,7 +2892,7 @@
       "unknownErrorEditor": "编辑器未知错误",
       "unknownErrorEditorText": "不能打开编辑器，因为发生了未知错误。",
       "unavailableResourceErrorEditor": "编辑器资源不可用",
-      "unavailableResourceErrorEditorText": "不能打开编辑器，因为资源不可用。"
+      "unavailableResourceErrorEditorText": "不能打开编辑器，因为文件不存在。"
     },
     "vs/workbench/browser/parts/editor/editorQuickAccess": {
       "noViewResults": "没有匹配的编辑器",
@@ -3768,6 +3772,7 @@
     },
     "vs/workbench/contrib/codeEditor/browser/untitledTextEditorHint": {
       "selectAlanguage2": "选择文件语言",
+      "keyboardBindingTooltip": "{0}",
       "toGetStarted": "，然后开始编辑。此信息会自动关闭，也可设置为",
       "dontshow": "不再显示",
       "thisAgain": "。"
@@ -4519,7 +4524,7 @@
       "extension version": "扩展版本",
       "preview": "预览版",
       "builtin": "内置",
-      "publisher": "发布者名称",
+      "publisher": "发布者",
       "install count": "安装数",
       "rating": "评分",
       "details": "详细信息",
@@ -5001,6 +5006,9 @@
       "showLanguageExtensions": "商店具有可在“.{0}”文件方面提供帮助的扩展",
       "dontShowAgainExtension": "不再为“.{0}”文件显示"
     },
+    "vs/workbench/contrib/extensions/browser/webRecommendations": {
+      "reason": "线上 {0} 推荐此扩展。"
+    },
     "vs/workbench/contrib/extensions/browser/workspaceRecommendations": {
       "workspaceRecommendation": "当前工作区的用户建议使用此扩展。"
     },
@@ -5296,6 +5304,8 @@
       "dropFolder": "拷贝文件夹“{0}”，还是将其添加到工作区？",
       "copyfolders": "是否拷贝多个文件夹？",
       "copyfolder": "是否拷贝文件夹“{0}”？",
+      "filesInaccessible": "部分拖放的文件不能导入。",
+      "fileInaccessible": "拖放的文件不能导入。",
       "copyFile": "拷贝 {0}",
       "copynFile": "拷贝 {0} 个项目",
       "copyingFile": "正在拷贝 {0}",
@@ -5522,7 +5532,7 @@
     },
     "vs/workbench/contrib/issue/electron-sandbox/issueActions": {
       "openProcessExplorer": "打开进程管理器",
-      "reportPerformanceIssue": "报告性能问题"
+      "reportPerformanceIssue": "报告性能问题…"
     },
     "vs/workbench/contrib/keybindings/browser/keybindings.contribution": {
       "toggleKeybindingsLog": "打开或关闭快捷键问题调试"
@@ -6550,6 +6560,10 @@
     },
     "vs/workbench/contrib/remote/common/remote.contribution": {
       "remoteExtensionLog": "远程服务器",
+      "invalidWorkspaceMessage": "工作区不存在",
+      "invalidWorkspaceDetail": "所选的工作区不存在。请选择其他工作区。",
+      "invalidWorkspacePrimary": "打开工作区(&&O)…",
+      "invalidWorkspaceCancel": "取消(&&C)",
       "ui": "用户界面扩展。在远程窗口中，用户界面扩展只在本地启用。",
       "workspace": "工作区扩展。在远程窗口中，工作区扩展只在远程启用。",
       "remote": "远程",
@@ -7533,8 +7547,7 @@
       "workbench.action.terminal.selectDefaultProfile": "选择默认配置文件",
       "workbench.action.terminal.openSettings": "设置终端",
       "workbench.action.terminal.setFixedDimensions": "设置固定大小",
-      "workbench.action.terminal.sizeToContentWidth": "切换根据内容宽度设定大小",
-      "workbench.action.terminal.sizeToContentWidthInstance": "切换根据内容宽度设定大小",
+      "workbench.action.terminal.sizeToContentWidth": "切换根据内容设定宽度",
       "workbench.action.terminal.copySelection": "拷贝选中文本",
       "workbench.action.terminal.paste": "粘贴到当前终端",
       "workbench.action.terminal.pasteSelection": "粘贴选中文本到当前终端",
@@ -7605,10 +7618,10 @@
       "workbench.action.terminal.selectDefaultProfile": "选择默认配置文件",
       "workbench.action.terminal.openSettings": "设置终端",
       "workbench.action.terminal.switchTerminal": "切换终端",
+      "workbench.action.terminal.sizeToContentWidthInstance": "切换根据内容设定宽度",
       "workbench.action.terminal.renameInstance": "重命名…",
       "workbench.action.terminal.changeIcon": "更改图标…",
       "workbench.action.terminal.changeColor": "更改颜色…",
-      "workbench.action.terminal.sizeToContentWidthInstance": "切换根据内容宽度设定大小",
       "workbench.action.terminal.joinInstance": "合并终端",
       "defaultTerminalProfile": "{0}（默认）",
       "terminal.new": "新建终端"
@@ -7823,7 +7836,8 @@
       "splitTerminal": "拆分终端",
       "splitTerminal.short": "拆分",
       "unsplitTerminal": "取消拆分终端",
-      "workbench.action.terminal.rename": "重命名…"
+      "workbench.action.terminal.rename": "重命名…",
+      "workbench.action.terminal.sizeToContentWidthInstance": "切换根据内容设定宽度"
     },
     "vs/workbench/contrib/terminal/electron-sandbox/localTerminalService": {
       "restartPtyHost": "重新启动 pty 宿主",
@@ -7873,6 +7887,7 @@
       "testing.viewAsTree": "以树形式查看",
       "testing.sortByStatus": "按状态排序",
       "testing.sortByLocation": "按位置排序",
+      "testing.sortByDuration": "按时长排序",
       "testing.showMostRecentOutput": "显示输出",
       "testing.collapseAll": "折叠所有测试",
       "testing.clearResults": "清除所有结果",
@@ -8493,6 +8508,8 @@
       "gettingStarted.openFolder.description": "打开文件夹以开始工作",
       "gettingStarted.topLevelGitClone.title": "克隆 Git 仓库…",
       "gettingStarted.topLevelGitClone.description": "将远程仓库克隆到本地文件夹",
+      "gettingStarted.topLevelGitOpen.title": "打开仓库…",
+      "gettingStarted.topLevelGitOpen.description": "连接到远程仓库或合并请求，以浏览、搜索、编辑和提交",
       "gettingStarted.topLevelShowWalkthroughs.title": "打开入门页…",
       "gettingStarted.setup.title": "开始使用 VS Code",
       "gettingStarted.setup.description": "探索您喜爱的 VS Code 自定义选项",
@@ -8506,13 +8523,13 @@
       "gettingStarted.commandPalette.description.interpolated": "“命令”让您通过键盘在 VS Code 中完成各种任务。通过查找常用命令进行**练习**，以提高效率。\n{0}\n__尝试搜索“view toggle”（视图 打开）__",
       "commandPalette": "打开命令栏",
       "gettingStarted.extensions.title": "无限的可扩展性",
-      "gettingStarted.extensions.description.interpolated": "扩展是 VS Code 的精华。扩展范围包括方便地提升生产力、扩展现成的功能以及添加全新的功能。\n{0}",
-      "browseRecommended": "浏览推荐的扩展",
+      "gettingStarted.extensionsWeb.description.interpolated": "扩展是 VS Code 的精华。越来越多的扩展可在线上安装。\n{0}",
+      "browsePopular": "浏览热门扩展",
       "gettingStarted.findLanguageExts.title": "对所有语言的丰富支持",
       "gettingStarted.findLanguageExts.description.interpolated": "语法突出显示、代码补全、格式化与调试让代码更加智能。不但内置了多种语言，而且可将更多语言添加为扩展。\n{0}",
       "browseLangExts": "浏览语言扩展",
       "gettingStarted.setup.OpenFolder.title": "打开您的代码",
-      "gettingStarted.setup.OpenFolderWeb.description.interpolated": "您已准备好开始写代码。请打开项目文件夹，将文件放入 VS Code。\n{0}\n{1}",
+      "gettingStarted.setup.OpenFolderWeb.description.interpolated": "您已准备好开始写代码。可以打开本地项目或远程仓库，将文件放入 VS Code。\n{0}\n{1}",
       "openFolder": "打开文件夹",
       "openRepository": "打开仓库",
       "gettingStarted.setup.OpenFolder.description.interpolated": "您已准备好开始写代码。请打开项目文件夹，将文件放入 VS Code。\n{0}",
@@ -8528,6 +8545,8 @@
       "gettingStarted.terminal.title": "便捷的内置终端",
       "gettingStarted.terminal.description.interpolated": "在代码旁边快速运行 shell 命令并查看生成输出。\n{0}",
       "showTerminal": "显示终端面板",
+      "gettingStarted.extensions.description.interpolated": "扩展是 VS Code 的精华。扩展范围包括方便地提升生产力、扩展现成的功能以及添加全新的功能。\n{0}",
+      "browseRecommended": "浏览推荐的扩展",
       "gettingStarted.settings.title": "优化设置",
       "gettingStarted.settings.description.interpolated": "根据您的喜好调整 VS Code 和扩展的各个方面。首先会列出常用设置便于您开始使用。\n{0}",
       "tweakSettings": "调整我的设置",
@@ -8831,6 +8850,7 @@
       "copy": "拷贝(&&C)"
     },
     "vs/workbench/electron-sandbox/window": {
+      "learnMore": "了解详细信息",
       "proxyAuthRequired": "代理需要身份验证",
       "loginButton": "登录(&&L)",
       "cancelButton": "取消(&&C)",
@@ -8973,11 +8993,10 @@
       "pickFolderAndOpen": "不能打开文件夹，请将文件夹添加到工作区。",
       "pickWorkspaceAndOpen": "不能打开工作区，将文件夹添加到工作区。",
       "openRemote": "打开远程…",
-      "upload": "上传…",
+      "openFiles": "打开文件…",
       "learnMore": "了解详细信息",
-      "cancel": "取消",
-      "unsupportedBrowserMessage": "当前浏览器不支持访问本地文件。",
-      "unsupportedBrowserDetail": "选择“了解详细信息”查看支持的浏览器列表。"
+      "unsupportedBrowserMessage": "不支持访问本地文件",
+      "unsupportedBrowserDetail": "您使用的浏览器不支持访问本地文件系统。\n您可以打开单个文件，或打开远程仓库。"
     },
     "vs/workbench/services/dialogs/browser/simpleFileDialog": {
       "openLocalFile": "打开本地文件…",
@@ -9067,7 +9086,8 @@
       "extensionInstallWorkspaceTrustContinueButton": "安装",
       "extensionInstallWorkspaceTrustManageButton": "了解详细信息",
       "VS Code for Web": "线上 {0}",
-      "non web extensions": "扩展“{0}”包含在{1} 中不可用的扩展。是否仍要安装？"
+      "non web extensions": "扩展“{0}”包含在{1} 中不可用的扩展。是否继续安装？",
+      "showExtensions": "显示扩展"
     },
     "vs/workbench/services/extensionManagement/common/webExtensionsScannerService": {
       "not a web extension": "不能安装扩展“{0}”，因为该扩展不适用于 Web 环境。",
@@ -9078,7 +9098,7 @@
       "remote": "远程"
     },
     "vs/workbench/services/extensionManagement/electron-sandbox/remoteExtensionManagementService": {
-      "incompatible": "不能安装扩展“{0}”，因为该扩展不兼容 VS Code 版本 {1}。"
+      "notFoundCompatibleDependency": "不能安装扩展“{0}”，因为该扩展不兼容 VS Code 版本 {1}。"
     },
     "vs/workbench/services/extensionRecommendations/common/workspaceExtensionsConfig": {
       "select for remove": "要删除扩展建议的位置",

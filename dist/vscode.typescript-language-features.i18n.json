@@ -117,6 +117,18 @@
       "capabilitiesStatus.name": "智能感知状态",
       "capabilitiesStatus.detail.syntaxOnly": "限于单个文件的智能感知"
     },
+    "dist/ui/intellisenseStatus": {
+      "pending.detail": "正在加载智能感知状态…",
+      "resolved.detail.noTsConfig": "没有 tsconfig ",
+      "resolved.detail.noJsConfig": "没有 jsconfig",
+      "resolved.command.title.createTsconfig": "创建 tsconfig",
+      "resolved.command.title.createJsconfig": "创建 jsconfig",
+      "resolved.command.title.open": "打开配置文件",
+      "syntaxOnly.text": "部分模式",
+      "syntaxOnly.detail": "跨文件的智能感知不可用",
+      "syntaxOnly.command.title.learnMore": "了解详细信息",
+      "statusItem.name": "JavaScript/TypeScript 智能感知状态"
+    },
     "dist/ui/projectStatus": {
       "statusItem.name": "tsconfig 设置",
       "item.noTsConfig.detail": "无",
@@ -255,7 +267,7 @@
       "typescript.preferences.importModuleSpecifier.relative": "通过相对路径导入。",
       "typescript.preferences.importModuleSpecifier.nonRelative": "根据 jsconfig.json 或 tsconfig.json 中配置的 `baseUrl` 或 `paths` 决定。",
       "typescript.preferences.importModuleSpecifier.projectRelative": "仅在导入路径不在工程目录内时，选择非相对路径。要求工作区使用不低于 4.2 版本的 TypeScript。",
-      "typescript.preferences.importModuleSpecifierEnding": "自动添加的 import 语句中，路径是否省略文件名或扩展名。",
+      "typescript.preferences.importModuleSpecifierEnding": "自动添加的 import 语句中，路径是否省略文件名或扩展名。要求工作区使用不低于 4.5 版本的 TypeScript。",
       "typescript.preferences.importModuleSpecifierEnding.auto": "根据工程设置决定。",
       "typescript.preferences.importModuleSpecifierEnding.minimal": "省略 `index` 文件名和 `js`、`ts` 扩展名。",
       "typescript.preferences.importModuleSpecifierEnding.index": "省略 `js`、`ts` 扩展名，但不省略 `index` 文件名。",
@@ -320,7 +332,11 @@
       "configuration.tsserver.useSyntaxServer": "启动专用 TypeScript 语言服务器来快速响应仅与语法相关的操作（如代码折叠），以降低这些操作的准备时间。",
       "configuration.tsserver.useSyntaxServer.always": "使用轻量级的语法专用服务器，处理所有智能感知操作。该服务器只能为打开的文件提供智能感知。",
       "configuration.tsserver.useSyntaxServer.never": "不使用语法专用服务器。用一个服务器处理所有智能感知操作。",
-      "configuration.tsserver.useSyntaxServer.auto": "同时启动完整语言服务器和语法专用服务器。语法专用服务器可以加快语法相关的操作，在工程加载时提供智能感知。"
+      "configuration.tsserver.useSyntaxServer.auto": "同时启动完整语言服务器和语法专用服务器。语法专用服务器可以加快语法相关的操作，在工程加载时提供智能感知。",
+      "typescript.preferences.jsxAttributeCompletionStyle": "JSX 属性补全的样式。",
+      "typescript.preferences.jsxAttributeCompletionStyle.auto": "在属性名后根据属性的类型，补充 `={}` 或 `=\"\"`。",
+      "typescript.preferences.jsxAttributeCompletionStyle.braces": "在属性名后补充 `={}`。",
+      "typescript.preferences.jsxAttributeCompletionStyle.none": "只插入属性名，不补充等号。"
     }
   }
 }
